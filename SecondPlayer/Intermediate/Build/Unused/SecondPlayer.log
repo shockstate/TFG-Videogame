@@ -1,0 +1,22 @@
+﻿  Performing full C++ include scan (building a new target)
+  Creating makefile for SecondPlayerEditor (game project files are newer)
+  Parsing headers for SecondPlayerEditor
+    Running UnrealHeaderTool "C:\Users\Guille\Documents\Unreal Projects\SecondPlayer\SecondPlayer.uproject" "C:\Users\Guille\Documents\Unreal Projects\SecondPlayer\Intermediate\Build\Win64\SecondPlayerEditor\Development\SecondPlayerEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for SecondPlayerEditor in 2,9790358 seconds
+  Deleting old hot reload file: "C:\Users\Guille\Documents\Unreal Projects\SecondPlayer\Binaries\Win64\UE4Editor-SecondPlayer-111.dll".
+  Deleting old hot reload file: "C:\Users\Guille\Documents\Unreal Projects\SecondPlayer\Binaries\Win64\UE4Editor-SecondPlayer-111.pdb".
+  Deleting old hot reload file: "C:\Users\Guille\Documents\Unreal Projects\SecondPlayer\Binaries\Win64\UE4Editor-SecondPlayer-1549.dll".
+  Deleting old hot reload file: "C:\Users\Guille\Documents\Unreal Projects\SecondPlayer\Binaries\Win64\UE4Editor-SecondPlayer-1549.pdb".
+  Deleting old hot reload file: "C:\Users\Guille\Documents\Unreal Projects\SecondPlayer\Binaries\Win64\UE4Editor-SecondPlayer-5091.dll".
+  Deleting old hot reload file: "C:\Users\Guille\Documents\Unreal Projects\SecondPlayer\Binaries\Win64\UE4Editor-SecondPlayer-5091.pdb".
+  Deleting old hot reload file: "C:\Users\Guille\Documents\Unreal Projects\SecondPlayer\Binaries\Win64\UE4Editor-SecondPlayer-8983.dll".
+  Deleting old hot reload file: "C:\Users\Guille\Documents\Unreal Projects\SecondPlayer\Binaries\Win64\UE4Editor-SecondPlayer-8983.pdb".
+  Performing 4 actions (2 in parallel)
+  SecondPlayer.generated.cpp
+  PawnCamera.cpp
+  [3/4] Link UE4Editor-SecondPlayer.dll
+  [4/4] Link UE4Editor-SecondPlayer.lib
+     Creating library C:\Users\Guille\Documents\Unreal Projects\SecondPlayer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SecondPlayer.lib and object C:\Users\Guille\Documents\Unreal Projects\SecondPlayer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SecondPlayer.exp
+     Creating library C:\Users\Guille\Documents\Unreal Projects\SecondPlayer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SecondPlayer.suppressed.lib and object C:\Users\Guille\Documents\Unreal Projects\SecondPlayer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SecondPlayer.suppressed.exp
+  Deploying SecondPlayerEditor Win64 Development...
+  Total build time: 17,55 seconds (Local executor: 10,33 seconds)

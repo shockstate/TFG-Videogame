@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\SecondPlayer.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{71FEBC3C-4B45-4DF6-8A03-3516E4F2AA28}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\SecondPlayer.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\SecondPlayerEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\SecondPlayerServer.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{E07FE5EE-0624-4C42-AC43-B987A2365CFF}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\SecondPlayer">
+			<UniqueIdentifier>{9A584DB2-0196-410C-BD47-6B4491E94F89}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\SecondPlayer\Hability.cpp">
+			<Filter>Source\SecondPlayer</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SecondPlayer\Hability.h">
+			<Filter>Source\SecondPlayer</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\SecondPlayer\Mine.cpp">
+			<Filter>Source\SecondPlayer</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SecondPlayer\Mine.h">
+			<Filter>Source\SecondPlayer</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\SecondPlayer\MyPawn.cpp">
+			<Filter>Source\SecondPlayer</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SecondPlayer\MyPawn.h">
+			<Filter>Source\SecondPlayer</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\SecondPlayer\PawnCamera.cpp">
+			<Filter>Source\SecondPlayer</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SecondPlayer\PawnCamera.h">
+			<Filter>Source\SecondPlayer</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\SecondPlayer\SecondPlayer.Build.cs">
+			<Filter>Source\SecondPlayer</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\SecondPlayer\SecondPlayer.cpp">
+			<Filter>Source\SecondPlayer</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SecondPlayer\SecondPlayer.h">
+			<Filter>Source\SecondPlayer</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\SecondPlayer\SecondPlayerGameModeBase.cpp">
+			<Filter>Source\SecondPlayer</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SecondPlayer\SecondPlayerGameModeBase.h">
+			<Filter>Source\SecondPlayer</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
