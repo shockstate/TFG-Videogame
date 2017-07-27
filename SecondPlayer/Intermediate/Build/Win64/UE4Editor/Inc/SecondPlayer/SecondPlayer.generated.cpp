@@ -26,12 +26,14 @@ void EmptyLinkFunctionForGeneratedCode1SecondPlayer() {}
 	IMPLEMENT_CLASS(AMyPawn, 4280594670);
 	void APawnCamera::StaticRegisterNativesAPawnCamera()
 	{
+		FNativeFunctionRegistrar::RegisterFunction(APawnCamera::StaticClass(), "getTotalGold",(Native)&APawnCamera::execgetTotalGold);
 	}
-	IMPLEMENT_CLASS(APawnCamera, 3939244040);
+	IMPLEMENT_CLASS(APawnCamera, 4086770348);
 	void ASecondPlayerGameModeBase::StaticRegisterNativesASecondPlayerGameModeBase()
 	{
+		FNativeFunctionRegistrar::RegisterFunction(ASecondPlayerGameModeBase::StaticClass(), "ChangeMenuWidget",(Native)&ASecondPlayerGameModeBase::execChangeMenuWidget);
 	}
-	IMPLEMENT_CLASS(ASecondPlayerGameModeBase, 3657009489);
+	IMPLEMENT_CLASS(ASecondPlayerGameModeBase, 2486271279);
 #if USE_COMPILED_IN_NATIVES
 // Cross Module References
 	ENGINE_API class UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
@@ -42,6 +44,7 @@ void EmptyLinkFunctionForGeneratedCode1SecondPlayer() {}
 	ENGINE_API class UClass* Z_Construct_UClass_APawn();
 	ENGINE_API class UClass* Z_Construct_UClass_USceneComponent_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_ADefaultPawn();
+	UMG_API class UClass* Z_Construct_UClass_UUserWidget_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_AGameModeBase();
 
 	SECONDPLAYER_API class UFunction* Z_Construct_UFunction_AMine_OnHit();
@@ -51,8 +54,10 @@ void EmptyLinkFunctionForGeneratedCode1SecondPlayer() {}
 	SECONDPLAYER_API class UClass* Z_Construct_UClass_AHability();
 	SECONDPLAYER_API class UClass* Z_Construct_UClass_AMyPawn_NoRegister();
 	SECONDPLAYER_API class UClass* Z_Construct_UClass_AMyPawn();
+	SECONDPLAYER_API class UFunction* Z_Construct_UFunction_APawnCamera_getTotalGold();
 	SECONDPLAYER_API class UClass* Z_Construct_UClass_APawnCamera_NoRegister();
 	SECONDPLAYER_API class UClass* Z_Construct_UClass_APawnCamera();
+	SECONDPLAYER_API class UFunction* Z_Construct_UFunction_ASecondPlayerGameModeBase_ChangeMenuWidget();
 	SECONDPLAYER_API class UClass* Z_Construct_UClass_ASecondPlayerGameModeBase_NoRegister();
 	SECONDPLAYER_API class UClass* Z_Construct_UClass_ASecondPlayerGameModeBase();
 	SECONDPLAYER_API class UPackage* Z_Construct_UPackage__Script_SecondPlayer();
@@ -195,6 +200,28 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AMyPawn(Z_Construct_UClass_AMyPawn, &AMyPawn::StaticClass, TEXT("AMyPawn"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AMyPawn);
+	UFunction* Z_Construct_UFunction_APawnCamera_getTotalGold()
+	{
+		struct PawnCamera_eventgetTotalGold_Parms
+		{
+			int32 ReturnValue;
+		};
+		UObject* Outer=Z_Construct_UClass_APawnCamera();
+		static UFunction* ReturnFunction = NULL;
+		if (!ReturnFunction)
+		{
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("getTotalGold"), RF_Public|RF_Transient|RF_MarkAsNative) UFunction(FObjectInitializer(), NULL, 0x04020401, 65535, sizeof(PawnCamera_eventgetTotalGold_Parms));
+			UProperty* NewProp_ReturnValue = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("ReturnValue"), RF_Public|RF_Transient|RF_MarkAsNative) UUnsizedIntProperty(CPP_PROPERTY_BASE(ReturnValue, PawnCamera_eventgetTotalGold_Parms), 0x0010000000000580);
+			ReturnFunction->Bind();
+			ReturnFunction->StaticLink();
+#if WITH_METADATA
+			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
+			MetaData->SetValue(ReturnFunction, TEXT("Category"), TEXT("Setup"));
+			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("PawnCamera.h"));
+#endif
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_APawnCamera_NoRegister()
 	{
 		return APawnCamera::StaticClass();
@@ -212,16 +239,21 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				UObjectForceRegistration(OuterClass);
 				OuterClass->ClassFlags |= 0x20900080;
 
+				OuterClass->LinkChild(Z_Construct_UFunction_APawnCamera_getTotalGold());
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+				UProperty* NewProp_totalGold = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("totalGold"), RF_Public|RF_Transient|RF_MarkAsNative) UIntProperty(CPP_PROPERTY_BASE(totalGold, APawnCamera), 0x0010000000000005);
 				UProperty* NewProp_AbilitySpawn = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("AbilitySpawn"), RF_Public|RF_Transient|RF_MarkAsNative) UClassProperty(CPP_PROPERTY_BASE(AbilitySpawn, APawnCamera), 0x0014000000020001, Z_Construct_UClass_AHability_NoRegister(), UClass::StaticClass());
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
+				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_APawnCamera_getTotalGold(), "getTotalGold"); // 2480287244
 				OuterClass->StaticLink();
 #if WITH_METADATA
 				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
 				MetaData->SetValue(OuterClass, TEXT("HideCategories"), TEXT("Navigation"));
 				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("PawnCamera.h"));
 				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("PawnCamera.h"));
+				MetaData->SetValue(NewProp_totalGold, TEXT("Category"), TEXT("PawnCamera"));
+				MetaData->SetValue(NewProp_totalGold, TEXT("ModuleRelativePath"), TEXT("PawnCamera.h"));
 				MetaData->SetValue(NewProp_AbilitySpawn, TEXT("Category"), TEXT("Spawn"));
 				MetaData->SetValue(NewProp_AbilitySpawn, TEXT("ModuleRelativePath"), TEXT("PawnCamera.h"));
 #endif
@@ -232,6 +264,29 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_APawnCamera(Z_Construct_UClass_APawnCamera, &APawnCamera::StaticClass, TEXT("APawnCamera"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(APawnCamera);
+	UFunction* Z_Construct_UFunction_ASecondPlayerGameModeBase_ChangeMenuWidget()
+	{
+		struct SecondPlayerGameModeBase_eventChangeMenuWidget_Parms
+		{
+			TSubclassOf<UUserWidget>  NewWidgetClass;
+		};
+		UObject* Outer=Z_Construct_UClass_ASecondPlayerGameModeBase();
+		static UFunction* ReturnFunction = NULL;
+		if (!ReturnFunction)
+		{
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("ChangeMenuWidget"), RF_Public|RF_Transient|RF_MarkAsNative) UFunction(FObjectInitializer(), NULL, 0x04020401, 65535, sizeof(SecondPlayerGameModeBase_eventChangeMenuWidget_Parms));
+			UProperty* NewProp_NewWidgetClass = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("NewWidgetClass"), RF_Public|RF_Transient|RF_MarkAsNative) UClassProperty(CPP_PROPERTY_BASE(NewWidgetClass, SecondPlayerGameModeBase_eventChangeMenuWidget_Parms), 0x0014000000000080, Z_Construct_UClass_UUserWidget_NoRegister(), UClass::StaticClass());
+			ReturnFunction->Bind();
+			ReturnFunction->StaticLink();
+#if WITH_METADATA
+			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
+			MetaData->SetValue(ReturnFunction, TEXT("Category"), TEXT("UMG Game"));
+			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("SecondPlayerGameModeBase.h"));
+			MetaData->SetValue(ReturnFunction, TEXT("ToolTip"), TEXT("Remove the current menu widget and create a new one from the specified class, if provided."));
+#endif
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_ASecondPlayerGameModeBase_NoRegister()
 	{
 		return ASecondPlayerGameModeBase::StaticClass();
@@ -249,7 +304,13 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				UObjectForceRegistration(OuterClass);
 				OuterClass->ClassFlags |= 0x20900288;
 
+				OuterClass->LinkChild(Z_Construct_UFunction_ASecondPlayerGameModeBase_ChangeMenuWidget());
 
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+				UProperty* NewProp_CurrentWidget = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("CurrentWidget"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(CurrentWidget, ASecondPlayerGameModeBase), 0x0020080000000000, Z_Construct_UClass_UUserWidget_NoRegister());
+				UProperty* NewProp_StartingWidgetClass = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("StartingWidgetClass"), RF_Public|RF_Transient|RF_MarkAsNative) UClassProperty(CPP_PROPERTY_BASE(StartingWidgetClass, ASecondPlayerGameModeBase), 0x0024080000000015, Z_Construct_UClass_UUserWidget_NoRegister(), UClass::StaticClass());
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_ASecondPlayerGameModeBase_ChangeMenuWidget(), "ChangeMenuWidget"); // 1675757688
 				OuterClass->StaticLink();
 #if WITH_METADATA
 				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
@@ -257,6 +318,11 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("SecondPlayerGameModeBase.h"));
 				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("SecondPlayerGameModeBase.h"));
 				MetaData->SetValue(OuterClass, TEXT("ShowCategories"), TEXT("Input|MouseInput Input|TouchInput"));
+				MetaData->SetValue(NewProp_CurrentWidget, TEXT("ModuleRelativePath"), TEXT("SecondPlayerGameModeBase.h"));
+				MetaData->SetValue(NewProp_CurrentWidget, TEXT("ToolTip"), TEXT("The widget instance that we are using as our menu."));
+				MetaData->SetValue(NewProp_StartingWidgetClass, TEXT("Category"), TEXT("UMG Game"));
+				MetaData->SetValue(NewProp_StartingWidgetClass, TEXT("ModuleRelativePath"), TEXT("SecondPlayerGameModeBase.h"));
+				MetaData->SetValue(NewProp_StartingWidgetClass, TEXT("ToolTip"), TEXT("The widget class we will use as our menu when the game starts."));
 #endif
 			}
 		}
@@ -273,8 +339,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/SecondPlayer")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0x01D9F622;
-			Guid.B = 0x63A3FC3E;
+			Guid.A = 0x4F9EE09C;
+			Guid.B = 0x32B0DCCB;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);

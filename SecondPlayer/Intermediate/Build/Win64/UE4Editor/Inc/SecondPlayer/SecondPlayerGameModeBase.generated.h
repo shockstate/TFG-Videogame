@@ -6,14 +6,37 @@
 ===========================================================================*/
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UUserWidget;
 #ifdef SECONDPLAYER_SecondPlayerGameModeBase_generated_h
 #error "SecondPlayerGameModeBase.generated.h already included, missing '#pragma once' in SecondPlayerGameModeBase.h"
 #endif
 #define SECONDPLAYER_SecondPlayerGameModeBase_generated_h
 
-#define SecondPlayer_Source_SecondPlayer_SecondPlayerGameModeBase_h_14_RPC_WRAPPERS
-#define SecondPlayer_Source_SecondPlayer_SecondPlayerGameModeBase_h_14_RPC_WRAPPERS_NO_PURE_DECLS
-#define SecondPlayer_Source_SecondPlayer_SecondPlayerGameModeBase_h_14_INCLASS_NO_PURE_DECLS \
+#define SecondPlayer_Source_SecondPlayer_SecondPlayerGameModeBase_h_15_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execChangeMenuWidget) \
+	{ \
+		P_GET_OBJECT(UClass,Z_Param_NewWidgetClass); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->ChangeMenuWidget(Z_Param_NewWidgetClass); \
+		P_NATIVE_END; \
+	}
+
+
+#define SecondPlayer_Source_SecondPlayer_SecondPlayerGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execChangeMenuWidget) \
+	{ \
+		P_GET_OBJECT(UClass,Z_Param_NewWidgetClass); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->ChangeMenuWidget(Z_Param_NewWidgetClass); \
+		P_NATIVE_END; \
+	}
+
+
+#define SecondPlayer_Source_SecondPlayer_SecondPlayerGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
 	private: \
 	static void StaticRegisterNativesASecondPlayerGameModeBase(); \
 	friend SECONDPLAYER_API class UClass* Z_Construct_UClass_ASecondPlayerGameModeBase(); \
@@ -24,7 +47,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define SecondPlayer_Source_SecondPlayer_SecondPlayerGameModeBase_h_14_INCLASS \
+#define SecondPlayer_Source_SecondPlayer_SecondPlayerGameModeBase_h_15_INCLASS \
 	private: \
 	static void StaticRegisterNativesASecondPlayerGameModeBase(); \
 	friend SECONDPLAYER_API class UClass* Z_Construct_UClass_ASecondPlayerGameModeBase(); \
@@ -35,7 +58,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define SecondPlayer_Source_SecondPlayer_SecondPlayerGameModeBase_h_14_STANDARD_CONSTRUCTORS \
+#define SecondPlayer_Source_SecondPlayer_SecondPlayerGameModeBase_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ASecondPlayerGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ASecondPlayerGameModeBase) \
@@ -48,7 +71,7 @@ private: \
 public:
 
 
-#define SecondPlayer_Source_SecondPlayer_SecondPlayerGameModeBase_h_14_ENHANCED_CONSTRUCTORS \
+#define SecondPlayer_Source_SecondPlayer_SecondPlayerGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ASecondPlayerGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -61,26 +84,30 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASecondPlayerGameModeBase); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ASecondPlayerGameModeBase)
 
 
-#define SecondPlayer_Source_SecondPlayer_SecondPlayerGameModeBase_h_14_PRIVATE_PROPERTY_OFFSET
-#define SecondPlayer_Source_SecondPlayer_SecondPlayerGameModeBase_h_11_PROLOG
-#define SecondPlayer_Source_SecondPlayer_SecondPlayerGameModeBase_h_14_GENERATED_BODY_LEGACY \
+#define SecondPlayer_Source_SecondPlayer_SecondPlayerGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__StartingWidgetClass() { return STRUCT_OFFSET(ASecondPlayerGameModeBase, StartingWidgetClass); } \
+	FORCEINLINE static uint32 __PPO__CurrentWidget() { return STRUCT_OFFSET(ASecondPlayerGameModeBase, CurrentWidget); }
+
+
+#define SecondPlayer_Source_SecondPlayer_SecondPlayerGameModeBase_h_12_PROLOG
+#define SecondPlayer_Source_SecondPlayer_SecondPlayerGameModeBase_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	SecondPlayer_Source_SecondPlayer_SecondPlayerGameModeBase_h_14_PRIVATE_PROPERTY_OFFSET \
-	SecondPlayer_Source_SecondPlayer_SecondPlayerGameModeBase_h_14_RPC_WRAPPERS \
-	SecondPlayer_Source_SecondPlayer_SecondPlayerGameModeBase_h_14_INCLASS \
-	SecondPlayer_Source_SecondPlayer_SecondPlayerGameModeBase_h_14_STANDARD_CONSTRUCTORS \
+	SecondPlayer_Source_SecondPlayer_SecondPlayerGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
+	SecondPlayer_Source_SecondPlayer_SecondPlayerGameModeBase_h_15_RPC_WRAPPERS \
+	SecondPlayer_Source_SecondPlayer_SecondPlayerGameModeBase_h_15_INCLASS \
+	SecondPlayer_Source_SecondPlayer_SecondPlayerGameModeBase_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define SecondPlayer_Source_SecondPlayer_SecondPlayerGameModeBase_h_14_GENERATED_BODY \
+#define SecondPlayer_Source_SecondPlayer_SecondPlayerGameModeBase_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	SecondPlayer_Source_SecondPlayer_SecondPlayerGameModeBase_h_14_PRIVATE_PROPERTY_OFFSET \
-	SecondPlayer_Source_SecondPlayer_SecondPlayerGameModeBase_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	SecondPlayer_Source_SecondPlayer_SecondPlayerGameModeBase_h_14_INCLASS_NO_PURE_DECLS \
-	SecondPlayer_Source_SecondPlayer_SecondPlayerGameModeBase_h_14_ENHANCED_CONSTRUCTORS \
+	SecondPlayer_Source_SecondPlayer_SecondPlayerGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
+	SecondPlayer_Source_SecondPlayer_SecondPlayerGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	SecondPlayer_Source_SecondPlayer_SecondPlayerGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
+	SecondPlayer_Source_SecondPlayer_SecondPlayerGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

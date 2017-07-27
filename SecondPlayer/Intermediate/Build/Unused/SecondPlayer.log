@@ -1,22 +1,25 @@
-﻿  Performing full C++ include scan (building a new target)
-  Creating makefile for SecondPlayerEditor (game project files are newer)
+﻿  Creating makefile for SecondPlayerEditor (no existing makefile)
   Parsing headers for SecondPlayerEditor
-    Running UnrealHeaderTool "C:\Users\Guille\Documents\Unreal Projects\SecondPlayer\SecondPlayer.uproject" "C:\Users\Guille\Documents\Unreal Projects\SecondPlayer\Intermediate\Build\Win64\SecondPlayerEditor\Development\SecondPlayerEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for SecondPlayerEditor in 2,9790358 seconds
-  Deleting old hot reload file: "C:\Users\Guille\Documents\Unreal Projects\SecondPlayer\Binaries\Win64\UE4Editor-SecondPlayer-111.dll".
-  Deleting old hot reload file: "C:\Users\Guille\Documents\Unreal Projects\SecondPlayer\Binaries\Win64\UE4Editor-SecondPlayer-111.pdb".
-  Deleting old hot reload file: "C:\Users\Guille\Documents\Unreal Projects\SecondPlayer\Binaries\Win64\UE4Editor-SecondPlayer-1549.dll".
-  Deleting old hot reload file: "C:\Users\Guille\Documents\Unreal Projects\SecondPlayer\Binaries\Win64\UE4Editor-SecondPlayer-1549.pdb".
-  Deleting old hot reload file: "C:\Users\Guille\Documents\Unreal Projects\SecondPlayer\Binaries\Win64\UE4Editor-SecondPlayer-5091.dll".
-  Deleting old hot reload file: "C:\Users\Guille\Documents\Unreal Projects\SecondPlayer\Binaries\Win64\UE4Editor-SecondPlayer-5091.pdb".
-  Deleting old hot reload file: "C:\Users\Guille\Documents\Unreal Projects\SecondPlayer\Binaries\Win64\UE4Editor-SecondPlayer-8983.dll".
-  Deleting old hot reload file: "C:\Users\Guille\Documents\Unreal Projects\SecondPlayer\Binaries\Win64\UE4Editor-SecondPlayer-8983.pdb".
-  Performing 4 actions (2 in parallel)
-  SecondPlayer.generated.cpp
+    Running UnrealHeaderTool "C:\Users\Guille\Documents\Unreal Projects\TFG-Videogame\SecondPlayer\SecondPlayer.uproject" "C:\Users\Guille\Documents\Unreal Projects\TFG-Videogame\SecondPlayer\Intermediate\Build\Win64\SecondPlayerEditor\Development\SecondPlayerEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for SecondPlayerEditor in 4,1047882 seconds
+  Performing 10 actions (2 in parallel)
+  PCH.SecondPlayer.cpp
+  Mine.cpp
+  Hability.cpp
+  MyPawn.cpp
   PawnCamera.cpp
-  [3/4] Link UE4Editor-SecondPlayer.dll
-  [4/4] Link UE4Editor-SecondPlayer.lib
-     Creating library C:\Users\Guille\Documents\Unreal Projects\SecondPlayer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SecondPlayer.lib and object C:\Users\Guille\Documents\Unreal Projects\SecondPlayer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SecondPlayer.exp
-     Creating library C:\Users\Guille\Documents\Unreal Projects\SecondPlayer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SecondPlayer.suppressed.lib and object C:\Users\Guille\Documents\Unreal Projects\SecondPlayer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SecondPlayer.suppressed.exp
-  Deploying SecondPlayerEditor Win64 Development...
-  Total build time: 17,55 seconds (Local executor: 10,33 seconds)
+  SecondPlayer.cpp
+  SecondPlayerGameModeBase.cpp
+  SecondPlayer.generated.cpp
+  [9/10] Link UE4Editor-SecondPlayer.dll
+  [10/10] Link UE4Editor-SecondPlayer.lib
+     Creating library C:\Users\Guille\Documents\Unreal Projects\TFG-Videogame\SecondPlayer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SecondPlayer.lib and object C:\Users\Guille\Documents\Unreal Projects\TFG-Videogame\SecondPlayer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SecondPlayer.exp
+     Creating library C:\Users\Guille\Documents\Unreal Projects\TFG-Videogame\SecondPlayer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SecondPlayer.suppressed.lib and object C:\Users\Guille\Documents\Unreal Projects\TFG-Videogame\SecondPlayer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SecondPlayer.suppressed.exp
+SecondPlayerGameModeBase.cpp.obj : error LNK2019: unresolved external symbol "public: void __cdecl ASecondPlayerGameModeBase::ChangeMenuWidget(class TSubclassOf<class UUserWidget>)" (?ChangeMenuWidget@ASecondPlayerGameModeBase@@QEAAXV?$TSubclassOf@VUUserWidget@@@@@Z) referenced in function "public: void __cdecl ASecondPlayerGameModeBase::execChangeMenuWidget(struct FFrame &,void * const)" (?execChangeMenuWidget@ASecondPlayerGameModeBase@@QEAAXAEAUFFrame@@QEAX@Z)
+SecondPlayer.generated.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl ASecondPlayerGameModeBase::ChangeMenuWidget(class TSubclassOf<class UUserWidget>)" (?ChangeMenuWidget@ASecondPlayerGameModeBase@@QEAAXV?$TSubclassOf@VUUserWidget@@@@@Z)
+SecondPlayerGameModeBase.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl ASecondPlayerGameModeBase::BeginPlay(void)" (?BeginPlay@ASecondPlayerGameModeBase@@MEAAXXZ)
+SecondPlayer.generated.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl ASecondPlayerGameModeBase::BeginPlay(void)" (?BeginPlay@ASecondPlayerGameModeBase@@MEAAXXZ)
+C:\Users\Guille\Documents\Unreal Projects\TFG-Videogame\SecondPlayer\Binaries\Win64\UE4Editor-SecondPlayer.dll : fatal error LNK1120: 2 unresolved externals
+ERROR : UBT error : Failed to produce item: C:\Users\Guille\Documents\Unreal Projects\TFG-Videogame\SecondPlayer\Binaries\Win64\UE4Editor-SecondPlayer.dll
+  Total build time: 89,52 seconds (Local executor: 0,00 seconds)
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.MakeFile.Targets(41,5): error MSB3075: The command ""C:\Program Files\Epic Games\UE_4.15\Engine\Build\BatchFiles\Build.bat" SecondPlayerEditor Win64 Development "C:\Users\Guille\Documents\Unreal Projects\TFG-Videogame\SecondPlayer\SecondPlayer.uproject" -waitmutex" exited with code 5. Please verify that you have sufficient rights to run this command.

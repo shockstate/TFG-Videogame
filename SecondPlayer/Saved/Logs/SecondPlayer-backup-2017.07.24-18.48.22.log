@@ -1,0 +1,1392 @@
+﻿Log file open, 07/20/17 16:55:14
+LogInit:Display: Running engine for game: SecondPlayer
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(835025672) SRandInit(835025672).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.326479
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.07.20-14.55.16:830][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.20-14.55.16:830][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.07.20-14.55.16:854][  0]LogInit: Computer: LAPTOP-GONF5L48
+[2017.07.20-14.55.16:854][  0]LogInit: User: Guille
+[2017.07.20-14.55.16:854][  0]LogInit: CPU Page size=65536, Cores=2
+[2017.07.20-14.55.16:854][  0]LogInit: High frequency timer resolution =2.835941 MHz
+[2017.07.20-14.55.16:854][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.07.20-14.55.16:854][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.20-14.55.16:854][  0]LogMemory: Process Physical Memory: 262.91 MB used, 262.91 MB peak
+[2017.07.20-14.55.16:854][  0]LogMemory: Process Virtual Memory: 262.39 MB used, 262.39 MB peak
+[2017.07.20-14.55.16:854][  0]LogMemory: Physical Memory: 5799.14 MB used,  2261.09 MB free, 8060.23 MB total
+[2017.07.20-14.55.16:854][  0]LogMemory: Virtual Memory: 643.38 MB used,  2261.09 MB free, 134217728.00 MB total
+[2017.07.20-14.55.18:577][  0]LogInit: Overriding culture en with editor configuration.
+[2017.07.20-14.55.19:594][  0]LogD3D11RHI: D3D11 adapters:
+[2017.07.20-14.55.19:601][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2017.07.20-14.55.19:601][  0]LogD3D11RHI:       128/0/4030 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.07.20-14.55.19:602][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.07.20-14.55.19:602][  0]LogD3D11RHI:       0/0/4030 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.07.20-14.55.19:602][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.07.20-14.55.19:606][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.07.20-14.55.19:606][  0]LogD3D11RHI:     GPU DeviceId: 0x5916 (for the marketing name, search the web for "GPU Device Id")
+[2017.07.20-14.55.19:606][  0]LogWindows: EnumDisplayDevices:
+[2017.07.20-14.55.19:606][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2017.07.20-14.55.19:606][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2017.07.20-14.55.19:606][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2017.07.20-14.55.19:606][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.07.20-14.55.19:606][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 620
+[2017.07.20-14.55.19:606][  0]LogD3D11RHI:   Driver Version: 21.20.16.4526 (internal:21.20.16.4526, unified:21.20.16.4526)
+[2017.07.20-14.55.19:606][  0]LogD3D11RHI:      Driver Date: 9-23-2016
+[2017.07.20-14.55.19:606][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.07.20-14.55.19:612][  0]LogD3D11RHI: Async texture creation enabled
+[2017.07.20-14.55.19:620][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
+[2017.07.20-14.55.19:621][  0]LogShaderCompilers: Guid format shader working directory is -37 characters bigger than the processId version (../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Intermediate/Shaders/WorkingDirectory/12208/).
+[2017.07.20-14.55.19:622][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Guille/AppData/Local/Temp/UnrealShaderWorkingDir/40A7D15D4C3C4207523267BFE5E150FA/'.
+[2017.07.20-14.55.19:622][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.07.20-14.55.22:002][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.07.20-14.55.22:264][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.07.20-14.55.22:544][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.07.20-14.55.22:763][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.07.20-14.55.22:915][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.07.20-14.55.23:083][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.07.20-14.55.23:267][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.07.20-14.55.23:448][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.07.20-14.55.23:661][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.07.20-14.55.23:937][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.07.20-14.55.24:193][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.07.20-14.55.24:453][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.07.20-14.55.24:619][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.07.20-14.55.24:813][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.07.20-14.55.25:022][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.07.20-14.55.25:375][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.07.20-14.55.25:375][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.07.20-14.55.25:564][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.07.20-14.55.26:120][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.07.20-14.55.26:407][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.07.20-14.55.26:778][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.07.20-14.55.26:948][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.07.20-14.55.27:149][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.07.20-14.55.27:368][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.07.20-14.55.27:368][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.07.20-14.55.31:542][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.07.20-14.55.32:197][  0]LogDerivedDataCache: Loaded boot cache 0.65s 51MB C:/Users/Guille/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.07.20-14.55.32:197][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Guille/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.07.20-14.55.32:197][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.07.20-14.55.32:197][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.07.20-14.55.32:198][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.07.20-14.55.32:198][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.07.20-14.55.32:254][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.07.20-14.55.32:270][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Guille/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.07.20-14.55.32:296][  0]LogSlate: Using Freetype 2.6.0
+[2017.07.20-14.55.32:302][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.20-14.55.32:302][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.20-14.55.33:123][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.20-14.55.33:126][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.07.20-14.55.33:784][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.07.20-14.55.33:964][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.07.20-14.55.34:181][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.07.20-14.55.34:181][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.07.20-14.55.34:181][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.07.20-14.55.35:403][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: secondplayer, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3451978818
+[2017.07.20-14.55.35:637][  0]LogAssetRegistry: FAssetRegistry took 0.0236 seconds to start up
+[2017.07.20-14.55.35:723][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.027039 seconds
+[2017.07.20-14.55.35:731][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.07.20-14.55.35:731][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.07.20-14.55.35:731][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.07.20-14.55.35:971][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.07.20-14.55.44:071][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.07.20-14.55.44:357][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.07.20-14.55.47:842][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.07.20-14.55.49:135][  0]SourceControl: Info Source control is disabled
+[2017.07.20-14.55.49:925][  0]SourceControl: Info Source control is disabled
+[2017.07.20-14.55.50:193][  0]SourceControl: Info Source control is disabled
+[2017.07.20-14.55.50:500][  0]SourceControl: Info Source control is disabled
+[2017.07.20-14.55.59:370][  0]LogEngine: Initializing Engine...
+[2017.07.20-14.55.59:372][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.07.20-14.56.00:215][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.20-14.56.00:243][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.20-14.56.00:254][  0]LogInit: FAudioDevice initialized.
+[2017.07.20-14.56.00:278][  0]LogDerivedDataCache: Saved boot cache 0.02s 51MB C:/Users/Guille/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.07.20-14.56.00:281][  0]LogInit: Texture streaming: Enabled
+[2017.07.20-14.56.00:829][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.07.20-14.56.01:678][  0]LogInit: Transaction tracking system initialized
+[2017.07.20-14.56.02:614][  0]BlueprintLog: New page: Editor Load
+[2017.07.20-14.56.06:488][  0]LocalizationService: Info Localization service is disabled
+[2017.07.20-14.56.08:803][  0]LogConsoleResponse:Display: 
+[2017.07.20-14.56.09:053][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.07.20-14.56.09:053][  0]LogCook:Display: Mobile HDR setting 1
+[2017.07.20-14.56.09:669][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Content/' took 0.01s
+[2017.07.20-14.56.12:004][  0]SourceControl: Info Source control is disabled
+[2017.07.20-14.56.12:004][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.20-14.56.12:005][  0]LightingResults: New page: Lighting Build
+[2017.07.20-14.56.12:113][  0]MapCheck: New page: Map Check
+[2017.07.20-14.56.12:113][  0]LightingResults: New page: Lighting Build
+[2017.07.20-14.56.12:769][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.07.20-14.56.12:804][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.20-14.56.12:805][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.20-14.56.12:908][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 102.434ms to complete.
+[2017.07.20-14.56.12:908][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.904
+[2017.07.20-14.56.13:137][  0]LogCollectionManager: Loaded 0 collections in 0.002089 seconds
+[2017.07.20-14.56.13:251][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Saved/Collections/' took 0.01s
+[2017.07.20-14.56.13:251][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Content/Developers/Guille/Collections/' took 0.01s
+[2017.07.20-14.56.13:251][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Content/Collections/' took 0.01s
+[2017.07.20-14.56.13:251][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.07.20-14.56.13:265][  0]LogContentBrowser: Native class hierarchy populated in 0.0132 seconds. Added 2250 classes and 455 folders.
+[2017.07.20-14.56.13:270][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.07.20-14.56.13:270][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.07.20-14.56.13:403][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0022 seconds. Added 0 classes and 0 folders.
+[2017.07.20-14.56.13:584][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0020 seconds. Added 0 classes and 0 folders.
+[2017.07.20-14.56.13:802][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0056 seconds. Added 1 classes and 2 folders.
+[2017.07.20-14.56.13:928][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.07.20-14.56.13:938][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.20-14.56.14:095][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0025 seconds. Added 1 classes and 2 folders.
+[2017.07.20-14.56.14:095][  0]LogLoad: (Engine Initialization) Total time: 62.89 seconds
+[2017.07.20-14.56.14:095][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.21 seconds
+[2017.07.20-14.56.14:095][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.07.20-14.56.14:095][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.07.20-14.56.14:436][  0]LogOcInput: OculusInput pre-init called
+[2017.07.20-14.56.14:456][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.07.20-14.56.14:460][  0]LogSlate: Took 0.002582 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.20-14.56.14:468][  0]LogSlate: Took 0.002076 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.07.20-14.56.14:476][  0]LogSlate: Took 0.001328 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.07.20-14.56.14:569][  0]LogSlate: Took 0.001632 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.20-14.56.14:775][  1]LogRenderer: Reallocating scene render targets to support 796x328 NumSamples 1 (Frame:2).
+[2017.07.20-14.56.14:796][  1]LogAssetRegistry: Asset discovery search completed in 39.1819 seconds
+[2017.07.20-14.56.14:796][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000018 seconds (found 0 objects)
+[2017.07.20-14.56.14:796][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000055 seconds (updated 0 objects)
+[2017.07.20-14.56.15:936][  3]LogSlate: Took 0.000469 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.20-14.56.22:349][256]LogStreaming:Warning: Failed to open ANSI TEXT file C:/Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Saved/HardwareSurvey/dxdiag.txt
+[2017.07.20-14.56.22:520][257]LogSynthBenchmark:Display: FSynthBenchmark (V0.95):  requested WorkScale=5.00
+[2017.07.20-14.56.22:520][257]LogSynthBenchmark:Display: ===============
+[2017.07.20-14.56.22:520][257]LogSynthBenchmark:Display: Main Processor:
+[2017.07.20-14.56.22:746][257]LogSynthBenchmark:Display:          ... 0.025014 s/Run 'RayIntersect'
+[2017.07.20-14.56.22:746][257]LogSynthBenchmark:Display:          ... 0.020276 s/Run 'Fractal'
+[2017.07.20-14.56.22:746][257]LogSynthBenchmark:Display: 
+[2017.07.20-14.56.22:746][257]LogSynthBenchmark:Display:   CompiledTarget_x_Bits: 64
+[2017.07.20-14.56.22:746][257]LogSynthBenchmark:Display:   UE_BUILD_SHIPPING: 0
+[2017.07.20-14.56.22:746][257]LogSynthBenchmark:Display:   UE_BUILD_TEST: 0
+[2017.07.20-14.56.22:746][257]LogSynthBenchmark:Display:   UE_BUILD_DEBUG: 0
+[2017.07.20-14.56.22:746][257]LogSynthBenchmark:Display:   TotalPhysicalGBRam: 8
+[2017.07.20-14.56.22:746][257]LogSynthBenchmark:Display:   NumberOfCores (physical): 2
+[2017.07.20-14.56.22:747][257]LogSynthBenchmark:Display:   NumberOfCores (logical): 4
+[2017.07.20-14.56.22:747][257]LogSynthBenchmark:Display:   CPU Perf Index 0: 102.4 (weight 1.00)
+[2017.07.20-14.56.22:747][257]LogSynthBenchmark:Display:   CPU Perf Index 1: 141.1 (weight 1.50)
+[2017.07.20-14.56.22:747][257]LogSynthBenchmark:Display:  
+[2017.07.20-14.56.22:747][257]LogSynthBenchmark:Display: Graphics:
+[2017.07.20-14.56.22:747][257]LogSynthBenchmark:Display:   Adapter Name: 'Intel(R) HD Graphics 620'
+[2017.07.20-14.56.22:747][257]LogSynthBenchmark:Display:   (On Optimus the name might be wrong, memory should be ok)
+[2017.07.20-14.56.22:747][257]LogSynthBenchmark:Display:   Vendor Id: 0x8086
+[2017.07.20-14.56.22:747][257]LogSynthBenchmark:Display:   Device Id: 0x5916
+[2017.07.20-14.56.22:747][257]LogSynthBenchmark:Display:   Device Revision: 0x2
+[2017.07.20-14.56.22:747][257]LogSynthBenchmark:Display:   GPU Memory: 128/0/4031 MB
+[2017.07.20-14.56.22:832][257]LogSynthBenchmark:Display:   GPU first test: 0.03s
+[2017.07.20-14.56.22:832][257]LogSynthBenchmark:Display:          ... 0.630 s/GigaPix, Confidence=89% 'ALUHeavyNoise' (likely to be very inaccurate)
+[2017.07.20-14.56.22:832][257]LogSynthBenchmark:Display:          ... 0.548 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be very inaccurate)
+[2017.07.20-14.56.22:832][257]LogSynthBenchmark:Display:          ... 0.488 s/GigaPix, Confidence=100% 'DepTexHeavy' (likely to be very inaccurate)
+[2017.07.20-14.56.22:832][257]LogSynthBenchmark:Display:          ... 1.583 s/GigaPix, Confidence=89% 'FillOnly' (likely to be very inaccurate)
+[2017.07.20-14.56.22:832][257]LogSynthBenchmark:Display:          ... 0.113 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be very inaccurate)
+[2017.07.20-14.56.22:832][257]LogSynthBenchmark:Display:          ... 0.284 s/GigaVert, Confidence=89% 'VertThroughPut1' (likely to be very inaccurate)
+[2017.07.20-14.56.22:832][257]LogSynthBenchmark:Display:          ... 0.869 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be very inaccurate)
+[2017.07.20-14.56.23:073][257]LogSynthBenchmark:Display:   GPU second test: 0.19s
+[2017.07.20-14.56.23:073][257]LogSynthBenchmark:Display:          ... 0.993 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be inaccurate)
+[2017.07.20-14.56.23:073][257]LogSynthBenchmark:Display:          ... 0.754 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be inaccurate)
+[2017.07.20-14.56.23:073][257]LogSynthBenchmark:Display:          ... 0.629 s/GigaPix, Confidence=100% 'DepTexHeavy' (likely to be inaccurate)
+[2017.07.20-14.56.23:073][257]LogSynthBenchmark:Display:          ... 5.133 s/GigaPix, Confidence=89% 'FillOnly' (likely to be inaccurate)
+[2017.07.20-14.56.23:073][257]LogSynthBenchmark:Display:          ... 0.113 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be inaccurate)
+[2017.07.20-14.56.23:073][257]LogSynthBenchmark:Display:          ... 0.318 s/GigaVert, Confidence=100% 'VertThroughPut1' (likely to be inaccurate)
+[2017.07.20-14.56.23:073][257]LogSynthBenchmark:Display:          ... 0.909 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be inaccurate)
+[2017.07.20-14.56.23:073][257]LogSynthBenchmark:Display:   GPU Final Results:
+[2017.07.20-14.56.23:073][257]LogSynthBenchmark:Display:          ... 0.993 s/GigaPix, Confidence=100% 'ALUHeavyNoise'
+[2017.07.20-14.56.23:073][257]LogSynthBenchmark:Display:          ... 0.754 s/GigaPix, Confidence=100% 'TexHeavy'
+[2017.07.20-14.56.23:073][257]LogSynthBenchmark:Display:          ... 0.629 s/GigaPix, Confidence=100% 'DepTexHeavy'
+[2017.07.20-14.56.23:073][257]LogSynthBenchmark:Display:          ... 5.133 s/GigaPix, Confidence=89% 'FillOnly'
+[2017.07.20-14.56.23:073][257]LogSynthBenchmark:Display:          ... 0.113 s/GigaPix, Confidence=100% 'Bandwidth'
+[2017.07.20-14.56.23:073][257]LogSynthBenchmark:Display:          ... 0.318 s/GigaVert, Confidence=100% 'VertThroughPut1'
+[2017.07.20-14.56.23:073][257]LogSynthBenchmark:Display:          ... 0.909 s/GigaVert, Confidence=100% 'VertThroughPut2'
+[2017.07.20-14.56.23:073][257]LogSynthBenchmark:Display: 
+[2017.07.20-14.56.23:073][257]LogSynthBenchmark:Display:   GPU Perf Index 0: 21.6 (weight 1.00)
+[2017.07.20-14.56.23:073][257]LogSynthBenchmark:Display:   GPU Perf Index 1: 10.1 (weight 0.10)
+[2017.07.20-14.56.23:073][257]LogSynthBenchmark:Display:   GPU Perf Index 2: 16.4 (weight 0.10)
+[2017.07.20-14.56.23:073][257]LogSynthBenchmark:Display:   GPU Perf Index 3: 20.2 (weight 3.00)
+[2017.07.20-14.56.23:073][257]LogSynthBenchmark:Display:   GPU Perf Index 4: 10.5 (weight 1.00)
+[2017.07.20-14.56.23:073][257]LogSynthBenchmark:Display:   GPU Perf Index 5: 20.7 (weight 0.00)
+[2017.07.20-14.56.23:073][257]LogSynthBenchmark:Display:   GPU Perf Index 6: 51.4 (weight 0.00)
+[2017.07.20-14.56.23:078][257]LogSynthBenchmark:Display:   CPUIndex: 125.6
+[2017.07.20-14.56.23:078][257]LogSynthBenchmark:Display:   GPUIndex: 18.3
+[2017.07.20-14.56.23:078][257]LogSynthBenchmark:Display: 
+[2017.07.20-14.56.23:078][257]LogSynthBenchmark:Display:          ... Total Time: 0.557964 sec
+[2017.07.20-14.56.37:232][784]LogSlate: Took 0.000859 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.20-14.56.37:766][784]LogSlate: Took 0.000225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.20-14.56.38:009][784]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0030 seconds. Added 112 classes and 0 folders.
+[2017.07.20-14.56.38:847][784]LogSlate: Took 0.001376 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.07.20-14.56.40:819][871]LogSlate: Took 0.001910 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.07.20-15.02.21:351][507]Recompiling SecondPlayer...
+[2017.07.20-15.02.21:353][507]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe SecondPlayer -ModuleWithSuffix SecondPlayer 6374 Win64 Development -editorrecompile -canskiplink "C:/Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/SecondPlayer.uproject" ]
+[2017.07.20-15.02.21:359][507]Warning: Starting HotReload took  1.7s.
+[2017.07.20-15.02.38:151][ 17]CompilerResultsLog: New page: Compilation - Jul 20, 2017, 7:02:38 PM
+[2017.07.20-15.02.38:151][ 17]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.07.20-15.02.38:151][ 17]CompilerResultsLog: Info Parsing headers for SecondPlayerEditor
+[2017.07.20-15.02.38:151][ 17]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Guille\Documents\Unreal Projects\TFG-Videogame\SecondPlayer\SecondPlayer.uproject" "C:\Users\Guille\Documents\Unreal Projects\TFG-Videogame\SecondPlayer\Intermediate\Build\Win64\SecondPlayerEditor\Development\SecondPlayerEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.07.20-15.02.38:151][ 17]CompilerResultsLog:Error: Error C:/Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Source/SecondPlayer/PawnCamera.h(34)  : Error: Inappropriate '*' on variable of type 'int32', cannot have an exposed pointer to this type.
+[2017.07.20-15.02.38:151][ 17]CompilerResultsLog: Info Error: UnrealHeaderTool failed for target 'SecondPlayerEditor' (platform: Win64, module info: C:\Users\Guille\Documents\Unreal Projects\TFG-Videogame\SecondPlayer\Intermediate\Build\Win64\SecondPlayerEditor\Development\SecondPlayerEditor.uhtmanifest, exit code: OtherCompilationError (5)).
+[2017.07.20-15.02.38:152][ 17]LogMainFrame: MainFrame: Module compiling took 16.809 seconds
+[2017.07.20-15.02.38:153][ 17]Warning: HotReload failed, recompile failed
+[2017.07.20-15.05.12:133][673]LogSlate: Took 0.016705 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.07.20-15.06.13:429][780]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PawnCamera1_Blueprint" FILE="../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Content/PawnCamera1_Blueprint.uasset" SILENT=true
+[2017.07.20-15.06.13:472][780]LogSavePackage: Save=24.71ms
+[2017.07.20-15.06.13:472][780]LogSavePackage: Moving '../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Saved/PawnCamera1_BlueprintF35AC4574346089BADFCEFB655F1FD3D.tmp' to '../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Content/PawnCamera1_Blueprint.uasset'
+[2017.07.20-15.06.13:484][780]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Content/PawnCamera1_Blueprint.uasset
+[2017.07.20-15.06.13:991][803]BlueprintLog: New page: Compile PawnCamera1_Blueprint
+[2017.07.20-15.06.19:726][ 53]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.20-15.06.19:755][ 53]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-15.06.19:756][ 53]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.20-15.06.19:759][ 53]PIE: New page: PIE session: Minimal_Default (Jul 20, 2017, 7:06:19 PM)
+[2017.07.20-15.06.19:761][ 53]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.07.20-15.06.19:776][ 53]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015503s)
+[2017.07.20-15.06.19:777][ 53]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.07.20-15.06.19:777][ 53]LogPlayLevel: PIE: World Init took: (0.000741s)
+[2017.07.20-15.06.19:778][ 53]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.017347s)
+[2017.07.20-15.06.19:813][ 53]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.20-15.06.19:823][ 53]LogInit: FAudioDevice initialized.
+[2017.07.20-15.06.19:884][ 53]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/SecondPlayer.SecondPlayerGameMode'
+[2017.07.20-15.06.19:884][ 53]LogLoad: Game class is 'GameModeBase'
+[2017.07.20-15.06.19:887][ 53]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.07.20-17.06.19
+[2017.07.20-15.06.19:888][ 53]LogWorld: Bringing up level for play took: 0.003506
+[2017.07.20-15.06.19:983][ 53]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0021 seconds. Added 11 classes and 0 folders.
+[2017.07.20-15.06.19:990][ 53]LogScript:Warning: Accessed None trying to read property My Character
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.HUD_C_2
+	Function /Game/HUD.HUD_C:GetText_0:003D
+[2017.07.20-15.06.19:990][ 53]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'GetText_0' from node: Return Node in graph: GetText_0 in object: HUD with description: Accessed None trying to read property My Character
+[2017.07.20-15.06.19:996][ 53]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.607
+[2017.07.20-15.06.19:998][ 53]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-15.06.20:079][ 53]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:8159).
+[2017.07.20-15.06.35:210][387]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-15.06.35:333][387]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-15.07.10:296][491]LogSavePackage: Save=110.89ms
+[2017.07.20-15.07.10:296][491]LogSavePackage: Moving '../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Saved/Minimal_Default_Auto1EEDDF5AF42F3428B29A7878BC4F41D3A.tmp' to '../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2017.07.20-15.07.10:299][491]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap
+[2017.07.20-15.07.10:302][491]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.245
+[2017.07.20-15.07.10:302][491]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.245
+[2017.07.20-15.07.18:454][630]Recompiling SecondPlayer...
+[2017.07.20-15.07.18:454][630]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe SecondPlayer -ModuleWithSuffix SecondPlayer 2961 Win64 Development -editorrecompile -canskiplink "C:/Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/SecondPlayer.uproject" ]
+[2017.07.20-15.07.18:456][630]Warning: Starting HotReload took  0.0s.
+[2017.07.20-15.07.32:086][286]CompilerResultsLog: New page: Compilation - Jul 20, 2017, 7:07:32 PM
+[2017.07.20-15.07.32:087][286]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.07.20-15.07.32:087][286]CompilerResultsLog: Info Parsing headers for SecondPlayerEditor
+[2017.07.20-15.07.32:087][286]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Guille\Documents\Unreal Projects\TFG-Videogame\SecondPlayer\SecondPlayer.uproject" "C:\Users\Guille\Documents\Unreal Projects\TFG-Videogame\SecondPlayer\Intermediate\Build\Win64\SecondPlayerEditor\Development\SecondPlayerEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.07.20-15.07.32:087][286]CompilerResultsLog:Error: Error C:/Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Source/SecondPlayer/PawnCamera.h(34)  : Error: Inappropriate '*' on variable of type 'int32', cannot have an exposed pointer to this type.
+[2017.07.20-15.07.32:087][286]CompilerResultsLog: Info Error: UnrealHeaderTool failed for target 'SecondPlayerEditor' (platform: Win64, module info: C:\Users\Guille\Documents\Unreal Projects\TFG-Videogame\SecondPlayer\Intermediate\Build\Win64\SecondPlayerEditor\Development\SecondPlayerEditor.uhtmanifest, exit code: OtherCompilationError (5)).
+[2017.07.20-15.07.32:087][286]LogMainFrame: MainFrame: Module compiling took 13.637 seconds
+[2017.07.20-15.07.32:087][286]Warning: HotReload failed, recompile failed
+[2017.07.20-15.12.06:368][398]Recompiling SecondPlayer...
+[2017.07.20-15.12.06:369][398]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe SecondPlayer -ModuleWithSuffix SecondPlayer 5309 Win64 Development -editorrecompile -canskiplink "C:/Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/SecondPlayer.uproject" ]
+[2017.07.20-15.12.06:370][398]Warning: Starting HotReload took  0.0s.
+[2017.07.20-15.12.24:229][ 47]CompilerResultsLog: New page: Compilation - Jul 20, 2017, 7:12:24 PM
+[2017.07.20-15.12.24:229][ 47]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.07.20-15.12.24:229][ 47]CompilerResultsLog: Info Parsing headers for SecondPlayerEditor
+[2017.07.20-15.12.24:229][ 47]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Guille\Documents\Unreal Projects\TFG-Videogame\SecondPlayer\SecondPlayer.uproject" "C:\Users\Guille\Documents\Unreal Projects\TFG-Videogame\SecondPlayer\Intermediate\Build\Win64\SecondPlayerEditor\Development\SecondPlayerEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.07.20-15.12.24:229][ 47]CompilerResultsLog:Error: Error C:/Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Source/SecondPlayer/PawnCamera.h(37)  : Error: Unknown function specifier 'VisibleAnywhere'
+[2017.07.20-15.12.24:229][ 47]CompilerResultsLog: Info Error: UnrealHeaderTool failed for target 'SecondPlayerEditor' (platform: Win64, module info: C:\Users\Guille\Documents\Unreal Projects\TFG-Videogame\SecondPlayer\Intermediate\Build\Win64\SecondPlayerEditor\Development\SecondPlayerEditor.uhtmanifest, exit code: OtherCompilationError (5)).
+[2017.07.20-15.12.24:229][ 47]LogMainFrame: MainFrame: Module compiling took 17.864 seconds
+[2017.07.20-15.12.24:229][ 47]Warning: HotReload failed, recompile failed
+[2017.07.20-15.13.22:954][365]BlueprintLog: New page: Compile PawnCamera1_Blueprint
+[2017.07.20-15.13.30:680][ 48]Recompiling SecondPlayer...
+[2017.07.20-15.13.30:680][ 48]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe SecondPlayer -ModuleWithSuffix SecondPlayer 4851 Win64 Development -editorrecompile -canskiplink "C:/Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/SecondPlayer.uproject" ]
+[2017.07.20-15.13.30:682][ 48]Warning: Starting HotReload took  0.0s.
+[2017.07.20-15.13.58:955][386]CompilerResultsLog: New page: Compilation - Jul 20, 2017, 7:13:58 PM
+[2017.07.20-15.13.58:956][386]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.07.20-15.13.58:956][386]CompilerResultsLog: Info Parsing headers for SecondPlayerEditor
+[2017.07.20-15.13.58:956][386]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Guille\Documents\Unreal Projects\TFG-Videogame\SecondPlayer\SecondPlayer.uproject" "C:\Users\Guille\Documents\Unreal Projects\TFG-Videogame\SecondPlayer\Intermediate\Build\Win64\SecondPlayerEditor\Development\SecondPlayerEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.07.20-15.13.58:956][386]CompilerResultsLog: Info Reflection code generated for SecondPlayerEditor in 4,1788528 seconds
+[2017.07.20-15.13.58:956][386]CompilerResultsLog: Info Performing 4 actions (2 in parallel)
+[2017.07.20-15.13.58:956][386]CompilerResultsLog: Info PawnCamera.cpp
+[2017.07.20-15.13.58:956][386]CompilerResultsLog: Info SecondPlayer.generated.cpp
+[2017.07.20-15.13.58:956][386]CompilerResultsLog: Info [3/4] Link UE4Editor-SecondPlayer-4851.dll
+[2017.07.20-15.13.58:956][386]CompilerResultsLog: Info [4/4] Link UE4Editor-SecondPlayer-4851.lib
+[2017.07.20-15.13.58:956][386]CompilerResultsLog: Info    Creating library C:\Users\Guille\Documents\Unreal Projects\TFG-Videogame\SecondPlayer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SecondPlayer-4851.lib and object C:\Users\Guille\Documents\Unreal Projects\TFG-Videogame\SecondPlayer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SecondPlayer-4851.exp
+[2017.07.20-15.13.58:957][386]CompilerResultsLog: Info    Creating library C:\Users\Guille\Documents\Unreal Projects\TFG-Videogame\SecondPlayer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SecondPlayer-4851.suppressed.lib and object C:\Users\Guille\Documents\Unreal Projects\TFG-Videogame\SecondPlayer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SecondPlayer-4851.suppressed.exp
+[2017.07.20-15.13.58:957][386]CompilerResultsLog: Info Total build time: 27,53 seconds (Local executor: 19,20 seconds)
+[2017.07.20-15.13.58:957][386]LogMainFrame: MainFrame: Module compiling took 28.280 seconds
+[2017.07.20-15.13.59:560][386]LogClass: Could not find existing class PawnCamera in package /Script/SecondPlayer for HotReload, assuming new class
+[2017.07.20-15.13.59:560][386]LogClass: Function getTotalGold is new.
+[2017.07.20-15.13.59:567][386]LogHotReload: Re-instancing PawnCamera after hot-reload.
+[2017.07.20-15.13.59:880][386]LogContentBrowser: Native class hierarchy updated for 'SecondPlayer' in 0.0026 seconds. Added 5 classes and 2 folders.
+[2017.07.20-15.13.59:883][386]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2017.07.20-15.14.00:222][386]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 2252 classes and 459 folders.
+[2017.07.20-15.14.00:226][386]Display: HotReload took 29.6s.
+[2017.07.20-15.14.09:403][647]Recompiling SecondPlayer...
+[2017.07.20-15.14.09:403][647]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe SecondPlayer -ModuleWithSuffix SecondPlayer 2514 Win64 Development -editorrecompile -canskiplink "C:/Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/SecondPlayer.uproject" ]
+[2017.07.20-15.14.09:406][647]Warning: Starting HotReload took  0.0s.
+[2017.07.20-15.14.22:815][ 71]CompilerResultsLog: New page: Compilation - Jul 20, 2017, 7:14:22 PM
+[2017.07.20-15.14.22:815][ 71]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.07.20-15.14.22:815][ 71]CompilerResultsLog: Info Parsing headers for SecondPlayerEditor
+[2017.07.20-15.14.22:815][ 71]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Guille\Documents\Unreal Projects\TFG-Videogame\SecondPlayer\SecondPlayer.uproject" "C:\Users\Guille\Documents\Unreal Projects\TFG-Videogame\SecondPlayer\Intermediate\Build\Win64\SecondPlayerEditor\Development\SecondPlayerEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.07.20-15.14.22:816][ 71]CompilerResultsLog:Error: Error C:/Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Source/SecondPlayer/PawnCamera.h(33)  : Error: Found more than one edit/visibility specifier (VisibleAnywhere), only one is allowed
+[2017.07.20-15.14.22:816][ 71]CompilerResultsLog: Info Error: UnrealHeaderTool failed for target 'SecondPlayerEditor' (platform: Win64, module info: C:\Users\Guille\Documents\Unreal Projects\TFG-Videogame\SecondPlayer\Intermediate\Build\Win64\SecondPlayerEditor\Development\SecondPlayerEditor.uhtmanifest, exit code: OtherCompilationError (5)).
+[2017.07.20-15.14.22:816][ 71]LogMainFrame: MainFrame: Module compiling took 13.416 seconds
+[2017.07.20-15.14.22:816][ 71]Warning: HotReload failed, recompile failed
+[2017.07.20-15.14.58:267][889]Recompiling SecondPlayer...
+[2017.07.20-15.14.58:267][889]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe SecondPlayer -ModuleWithSuffix SecondPlayer 7200 Win64 Development -editorrecompile -canskiplink "C:/Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/SecondPlayer.uproject" ]
+[2017.07.20-15.14.58:269][889]Warning: Starting HotReload took  0.0s.
+[2017.07.20-15.15.23:121][859]CompilerResultsLog: New page: Compilation - Jul 20, 2017, 7:15:23 PM
+[2017.07.20-15.15.23:121][859]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.07.20-15.15.23:121][859]CompilerResultsLog: Info Parsing headers for SecondPlayerEditor
+[2017.07.20-15.15.23:121][859]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Guille\Documents\Unreal Projects\TFG-Videogame\SecondPlayer\SecondPlayer.uproject" "C:\Users\Guille\Documents\Unreal Projects\TFG-Videogame\SecondPlayer\Intermediate\Build\Win64\SecondPlayerEditor\Development\SecondPlayerEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.07.20-15.15.23:121][859]CompilerResultsLog: Info Reflection code generated for SecondPlayerEditor in 9,7400376 seconds
+[2017.07.20-15.15.23:121][859]CompilerResultsLog: Info Performing 4 actions (2 in parallel)
+[2017.07.20-15.15.23:121][859]CompilerResultsLog: Info PawnCamera.cpp
+[2017.07.20-15.15.23:121][859]CompilerResultsLog: Info SecondPlayer.generated.cpp
+[2017.07.20-15.15.23:121][859]CompilerResultsLog: Info [3/4] Link UE4Editor-SecondPlayer-7200.dll
+[2017.07.20-15.15.23:121][859]CompilerResultsLog: Info [4/4] Link UE4Editor-SecondPlayer-7200.lib
+[2017.07.20-15.15.23:121][859]CompilerResultsLog: Info    Creating library C:\Users\Guille\Documents\Unreal Projects\TFG-Videogame\SecondPlayer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SecondPlayer-7200.lib and object C:\Users\Guille\Documents\Unreal Projects\TFG-Videogame\SecondPlayer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SecondPlayer-7200.exp
+[2017.07.20-15.15.23:121][859]CompilerResultsLog: Info    Creating library C:\Users\Guille\Documents\Unreal Projects\TFG-Videogame\SecondPlayer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SecondPlayer-7200.suppressed.lib and object C:\Users\Guille\Documents\Unreal Projects\TFG-Videogame\SecondPlayer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SecondPlayer-7200.suppressed.exp
+[2017.07.20-15.15.23:121][859]CompilerResultsLog: Info Total build time: 24,23 seconds (Local executor: 7,52 seconds)
+[2017.07.20-15.15.23:121][859]LogMainFrame: MainFrame: Module compiling took 24.858 seconds
+[2017.07.20-15.15.23:533][859]LogContentBrowser: Native class hierarchy updated for 'SecondPlayer' in 0.0027 seconds. Added 5 classes and 2 folders.
+[2017.07.20-15.15.23:536][859]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2017.07.20-15.15.23:855][859]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 2252 classes and 459 folders.
+[2017.07.20-15.15.23:855][859]Display: HotReload took 25.6s.
+[2017.07.20-15.16.49:905][ 74]BlueprintLog: New page: Compile PawnCamera1_Blueprint
+[2017.07.20-15.16.50:016][ 74]LogUObjectBase:Error: 'this' pointer is misaligned.
+[2017.07.20-15.16.50:339][ 74]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.319 s
+[2017.07.20-15.16.50:339][ 74]LogOutputDevice:Error: === Handled ensure: ===
+[2017.07.20-15.16.50:339][ 74]LogOutputDevice:Error: 
+[2017.07.20-15.16.50:339][ 74]LogOutputDevice:Error: Ensure condition failed: (Object == nullptr) || Object->IsValidLowLevelFast() [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\Engine\Private\BlueprintGeneratedClass.cpp] [Line: 1244]
+[2017.07.20-15.16.50:339][ 74]LogOutputDevice:Error: Invalid object referenced by the PersistentFrame: 0x0063006500780065 (Blueprint object: PawnCamera1_Blueprint_C /Engine/Transient.HOTRELOAD_CDO_DUPLICATE_1, ReferencingProperty: ObjectProperty /Game/PawnCamera1_Blueprint.PawnCamera1_Blueprint_C:ExecuteUbergraph_PawnCamera1_Blueprint.CallFunc_Create_ReturnValue) - If you have a reliable repro for this, please contact the development team with it.
+[2017.07.20-15.16.50:339][ 74]LogOutputDevice:Error: Stack: 
+[2017.07.20-15.16.50:339][ 74]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000001DCC95E6
+[2017.07.20-15.16.50:339][ 74]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000001DA79B82
+[2017.07.20-15.16.50:339][ 74]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000001DA8B666
+[2017.07.20-15.16.50:339][ 74]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000F172DDA2
+[2017.07.20-15.16.50:339][ 74]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000001F2B6B17
+[2017.07.20-15.16.50:339][ 74]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000001F1C1E43
+[2017.07.20-15.16.50:339][ 74]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000F1735DA0
+[2017.07.20-15.16.50:339][ 74]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000001F1BC67D
+[2017.07.20-15.16.50:339][ 74]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000F8AF82E9
+[2017.07.20-15.16.50:340][ 74]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000F8B2746A
+[2017.07.20-15.16.50:340][ 74]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000F8B4D2EC
+[2017.07.20-15.16.50:340][ 74]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000F8B4A8B8
+[2017.07.20-15.16.50:340][ 74]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000F8B4491D
+[2017.07.20-15.16.50:340][ 74]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000F8B459A2
+[2017.07.20-15.16.50:340][ 74]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000F8B16E4D
+[2017.07.20-15.16.50:340][ 74]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000052C44FD
+[2017.07.20-15.16.50:340][ 74]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x0000000005311941
+[2017.07.20-15.16.50:340][ 74]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000053163E6
+[2017.07.20-15.16.50:340][ 74]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000001287819F
+[2017.07.20-15.16.50:340][ 74]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000001296B530
+[2017.07.20-15.16.50:340][ 74]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000128DC7A2
+[2017.07.20-15.16.50:340][ 74]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000128DDBA9
+[2017.07.20-15.16.50:340][ 74]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000001294B689
+[2017.07.20-15.16.50:340][ 74]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000129FCF25
+[2017.07.20-15.16.50:340][ 74]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000012A2A4AE
+[2017.07.20-15.16.50:340][ 74]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000001285411C
+[2017.07.20-15.16.50:340][ 74]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000128247F5
+[2017.07.20-15.16.50:340][ 74]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000128C7193
+[2017.07.20-15.16.50:340][ 74]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000128B1100
+[2017.07.20-15.16.50:340][ 74]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000128A0211
+[2017.07.20-15.16.50:340][ 74]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000001DCBCDF9
+[2017.07.20-15.16.50:340][ 74]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000001DCA67C1
+[2017.07.20-15.16.50:340][ 74]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000001DCBEA1C
+[2017.07.20-15.16.50:340][ 74]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000001DCA26E9
+[2017.07.20-15.16.50:340][ 74]LogOutputDevice:Error: USER32.dll!0x000000004C561C24
+[2017.07.20-15.16.50:340][ 74]LogOutputDevice:Error: USER32.dll!0x000000004C56156C
+[2017.07.20-15.16.50:340][ 74]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000001DCBF326
+[2017.07.20-15.16.50:340][ 74]LogOutputDevice:Error: UE4Editor.exe!0x00000000FFF9D790
+[2017.07.20-15.16.50:340][ 74]LogOutputDevice:Error: UE4Editor.exe!0x00000000FFF8EB40
+[2017.07.20-15.16.50:340][ 74]LogOutputDevice:Error: UE4Editor.exe!0x00000000FFF8EBBA
+[2017.07.20-15.16.50:340][ 74]LogOutputDevice:Error: UE4Editor.exe!0x00000000FFFA0A29
+[2017.07.20-15.16.50:340][ 74]LogOutputDevice:Error: UE4Editor.exe!0x00000000FFFA22B6
+[2017.07.20-15.16.50:340][ 74]LogOutputDevice:Error: KERNEL32.DLL!0x000000004A7A8364
+[2017.07.20-15.16.50:340][ 74]LogOutputDevice:Error: ntdll.dll!0x000000004C8B70D1
+[2017.07.20-15.16.50:340][ 74]LogOutputDevice:Error: 
+[2017.07.20-15.16.50:345][ 74]LogStats:                SubmitErrorReport -  0.000 s
+[2017.07.20-15.16.51:365][ 74]LogStats:                    SendNewReport -  1.020 s
+[2017.07.20-15.16.51:365][ 74]LogStats:             FDebug::EnsureFailed -  1.345 s
+[2017.07.20-15.16.56:936][581]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PawnCamera1_Blueprint" FILE="../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Content/PawnCamera1_Blueprint.uasset" SILENT=true
+[2017.07.20-15.16.56:969][581]LogSavePackage: Save=18.29ms
+[2017.07.20-15.16.56:969][581]LogSavePackage: Moving '../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Saved/PawnCamera1_BlueprintFAF5ACD64E7E777F5097ACAB943EE980.tmp' to '../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Content/PawnCamera1_Blueprint.uasset'
+[2017.07.20-15.16.56:974][581]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Content/PawnCamera1_Blueprint.uasset
+[2017.07.20-15.16.59:500][782]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.20-15.16.59:511][782]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-15.16.59:511][782]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.20-15.16.59:512][782]PIE: New page: PIE session: Minimal_Default (Jul 20, 2017, 7:16:59 PM)
+[2017.07.20-15.16.59:512][782]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.07.20-15.16.59:526][782]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013889s)
+[2017.07.20-15.16.59:526][782]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.07.20-15.16.59:527][782]LogPlayLevel: PIE: World Init took: (0.000971s)
+[2017.07.20-15.16.59:527][782]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.015114s)
+[2017.07.20-15.16.59:576][782]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.20-15.16.59:584][782]LogInit: FAudioDevice initialized.
+[2017.07.20-15.16.59:622][782]LogLoad: Game class is 'GameModeBase'
+[2017.07.20-15.16.59:624][782]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.07.20-17.16.59
+[2017.07.20-15.16.59:624][782]LogWorld: Bringing up level for play took: 0.001465
+[2017.07.20-15.16.59:626][782]LogScript:Warning: Accessed None trying to read property My Character
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.HUD_C_0
+	Function /Game/HUD.HUD_C:GetText_0:003D
+[2017.07.20-15.16.59:626][782]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'GetText_0' from node: Return Node in graph: GetText_0 in object: HUD with description: Accessed None trying to read property My Character
+[2017.07.20-15.16.59:629][782]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.239
+[2017.07.20-15.16.59:633][782]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-15.17.10:001][ 33]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-15.17.10:122][ 33]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-15.19.33:353][476]BlueprintLog: New page: Compile PawnCamera1_Blueprint
+[2017.07.20-15.19.37:613][966]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PawnCamera1_Blueprint" FILE="../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Content/PawnCamera1_Blueprint.uasset" SILENT=true
+[2017.07.20-15.19.37:648][966]LogSavePackage: Save=20.60ms
+[2017.07.20-15.19.37:648][966]LogSavePackage: Moving '../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Saved/PawnCamera1_Blueprint1D18A2F540BC42335C679D87C7512C6D.tmp' to '../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Content/PawnCamera1_Blueprint.uasset'
+[2017.07.20-15.19.37:656][966]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Content/PawnCamera1_Blueprint.uasset
+[2017.07.20-15.19.40:718][163]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.20-15.19.40:738][163]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-15.19.40:738][163]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.20-15.19.40:738][163]PIE: New page: PIE session: Minimal_Default (Jul 20, 2017, 7:19:40 PM)
+[2017.07.20-15.19.40:738][163]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.07.20-15.19.40:747][163]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009179s)
+[2017.07.20-15.19.40:748][163]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.07.20-15.19.40:748][163]LogPlayLevel: PIE: World Init took: (0.000929s)
+[2017.07.20-15.19.40:748][163]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.010370s)
+[2017.07.20-15.19.40:788][163]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.20-15.19.40:798][163]LogInit: FAudioDevice initialized.
+[2017.07.20-15.19.40:842][163]LogLoad: Game class is 'GameModeBase'
+[2017.07.20-15.19.40:844][163]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.07.20-17.19.40
+[2017.07.20-15.19.40:844][163]LogWorld: Bringing up level for play took: 0.001417
+[2017.07.20-15.19.40:846][163]LogScript:Warning: Accessed None trying to read property My Character
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.HUD_C_4
+	Function /Game/HUD.HUD_C:GetText_0:003D
+[2017.07.20-15.19.40:846][163]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'GetText_0' from node: Return Node in graph: GetText_0 in object: HUD with description: Accessed None trying to read property My Character
+[2017.07.20-15.19.40:850][163]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.539
+[2017.07.20-15.19.40:851][163]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-15.19.49:180][361]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-15.19.49:301][361]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-15.19.55:080][651]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.20-15.19.55:093][651]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-15.19.55:093][651]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.20-15.19.55:093][651]PIE: New page: PIE session: Minimal_Default (Jul 20, 2017, 7:19:55 PM)
+[2017.07.20-15.19.55:093][651]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.07.20-15.19.55:101][651]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008082s)
+[2017.07.20-15.19.55:102][651]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.07.20-15.19.55:102][651]LogPlayLevel: PIE: World Init took: (0.000983s)
+[2017.07.20-15.19.55:102][651]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.009330s)
+[2017.07.20-15.19.55:144][651]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.20-15.19.55:152][651]LogInit: FAudioDevice initialized.
+[2017.07.20-15.19.55:192][651]LogLoad: Game class is 'GameModeBase'
+[2017.07.20-15.19.55:194][651]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.07.20-17.19.55
+[2017.07.20-15.19.55:194][651]LogWorld: Bringing up level for play took: 0.001555
+[2017.07.20-15.19.55:196][651]LogScript:Warning: Accessed None trying to read property My Character
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_5
+	Function /Game/HUD.HUD_C:GetText_0:003D
+[2017.07.20-15.19.55:196][651]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'GetText_0' from node: Return Node in graph: GetText_0 in object: HUD with description: Accessed None trying to read property My Character
+[2017.07.20-15.19.55:199][651]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.191
+[2017.07.20-15.19.55:200][651]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-15.20.15:690][574]LogSlate: Took 0.004329 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2017.07.20-15.21.16:468][728]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-15.21.16:535][728]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-15.21.26:258][873]BlueprintLog: New page: Compile PawnCamera1_Blueprint
+[2017.07.20-15.21.30:821][369]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PawnCamera1_Blueprint" FILE="../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Content/PawnCamera1_Blueprint.uasset" SILENT=true
+[2017.07.20-15.21.30:852][369]LogSavePackage: Save=19.36ms
+[2017.07.20-15.21.30:852][369]LogSavePackage: Moving '../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Saved/PawnCamera1_Blueprint997813CA430A53C40FAF1E83D2C3E7DA.tmp' to '../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Content/PawnCamera1_Blueprint.uasset'
+[2017.07.20-15.21.30:858][369]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Content/PawnCamera1_Blueprint.uasset
+[2017.07.20-15.21.33:166][514]Recompiling SecondPlayer...
+[2017.07.20-15.21.33:166][514]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/DotNET/UnrealBuildTool.exe SecondPlayer -ModuleWithSuffix SecondPlayer 6054 Win64 Development -editorrecompile -canskiplink "C:/Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/SecondPlayer.uproject" ]
+[2017.07.20-15.21.33:169][514]Warning: Starting HotReload took  0.0s.
+[2017.07.20-15.21.40:514][803]CompilerResultsLog: New page: Compilation - Jul 20, 2017, 7:21:40 PM
+[2017.07.20-15.21.40:514][803]CompilerResultsLog: Info Compiling game modules for hot reload
+[2017.07.20-15.21.40:514][803]CompilerResultsLog: Info Target is up to date
+[2017.07.20-15.21.40:515][803]CompilerResultsLog: Info Total build time: 6,68 seconds (NoActionsToExecute executor: 0,00 seconds)
+[2017.07.20-15.21.40:515][803]LogMainFrame: MainFrame: Module compiling took 7.352 seconds
+[2017.07.20-15.21.40:772][803]LogContentBrowser: Native class hierarchy populated in 0.0194 seconds. Added 2252 classes and 459 folders.
+[2017.07.20-15.21.40:773][803]Display: HotReload took  7.6s.
+[2017.07.20-15.21.41:837][851]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.20-15.21.41:850][851]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-15.21.41:851][851]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.20-15.21.41:851][851]PIE: New page: PIE session: Minimal_Default (Jul 20, 2017, 7:21:41 PM)
+[2017.07.20-15.21.41:851][851]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.07.20-15.21.41:859][851]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007621s)
+[2017.07.20-15.21.41:860][851]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.07.20-15.21.41:860][851]LogPlayLevel: PIE: World Init took: (0.001057s)
+[2017.07.20-15.21.41:860][851]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.009273s)
+[2017.07.20-15.21.41:912][851]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.20-15.21.41:920][851]LogInit: FAudioDevice initialized.
+[2017.07.20-15.21.41:960][851]LogLoad: Game class is 'GameModeBase'
+[2017.07.20-15.21.41:962][851]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.07.20-17.21.41
+[2017.07.20-15.21.41:963][851]LogWorld: Bringing up level for play took: 0.001568
+[2017.07.20-15.21.41:964][851]LogScript:Warning: Accessed None trying to read property My Character
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.HUD_C_6
+	Function /Game/HUD.HUD_C:GetText_0:003D
+[2017.07.20-15.21.41:964][851]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'GetText_0' from node: Return Node in graph: GetText_0 in object: HUD with description: Accessed None trying to read property My Character
+[2017.07.20-15.21.41:969][851]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.579
+[2017.07.20-15.21.41:969][851]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-15.21.41:975][851]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.42:118][852]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.42:158][853]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.42:220][854]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.42:265][855]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.42:302][856]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.42:346][857]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.42:388][858]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.42:431][859]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.42:476][860]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.42:523][861]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.42:562][862]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.42:609][863]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.42:658][864]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.42:701][865]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.42:747][866]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.42:792][867]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.42:836][868]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.42:884][869]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.42:936][870]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.42:981][871]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.43:026][872]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.43:069][873]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.43:110][874]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.43:151][875]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.43:190][876]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.43:232][877]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.43:273][878]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.43:315][879]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.43:354][880]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.43:398][881]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.43:439][882]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.43:480][883]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.43:520][884]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.43:561][885]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.43:602][886]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.43:646][887]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.43:689][888]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.43:730][889]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.43:771][890]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.43:815][891]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.43:858][892]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.43:902][893]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.43:940][894]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.43:981][895]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.44:037][896]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.44:061][897]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.44:101][898]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.44:141][899]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.44:185][900]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.44:225][901]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.44:265][902]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.44:303][903]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.44:345][904]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.44:387][905]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.44:430][906]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.44:469][907]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.44:511][908]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.44:549][909]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.44:589][910]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.44:631][911]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.44:672][912]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.44:715][913]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.44:753][914]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.44:796][915]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.44:836][916]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.44:879][917]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.44:920][918]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.44:961][919]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.45:001][920]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.45:041][921]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.45:081][922]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.45:121][923]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.45:161][924]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.45:202][925]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.45:242][926]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.45:282][927]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.45:322][928]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.45:363][929]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.45:403][930]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.45:443][931]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.45:482][932]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.45:523][933]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.45:565][934]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.45:609][935]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.45:651][936]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.45:691][937]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.45:731][938]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.45:772][939]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.45:813][940]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.45:856][941]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.45:896][942]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.45:937][943]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.45:977][944]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.46:018][945]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.46:060][946]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.46:102][947]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.46:142][948]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.46:190][949]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.46:226][950]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.46:268][951]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.46:310][952]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.46:350][953]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.46:388][954]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.46:429][955]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.46:468][956]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.46:507][957]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.46:553][958]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.46:596][959]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.46:635][960]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.46:679][961]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.46:719][962]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.46:759][963]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.46:803][964]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 200
+[2017.07.20-15.21.46:847][965]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 210
+[2017.07.20-15.21.46:890][966]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 210
+[2017.07.20-15.21.46:930][967]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 210
+[2017.07.20-15.21.46:975][968]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 210
+[2017.07.20-15.21.47:017][969]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 210
+[2017.07.20-15.21.47:059][970]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 210
+[2017.07.20-15.21.47:102][971]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 210
+[2017.07.20-15.21.47:140][972]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 210
+[2017.07.20-15.21.47:181][973]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 210
+[2017.07.20-15.21.47:227][974]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 210
+[2017.07.20-15.21.47:264][975]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 210
+[2017.07.20-15.21.47:311][976]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 210
+[2017.07.20-15.21.47:347][977]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 210
+[2017.07.20-15.21.47:393][978]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 210
+[2017.07.20-15.21.47:438][979]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 210
+[2017.07.20-15.21.47:482][980]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 210
+[2017.07.20-15.21.47:526][981]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.47:571][982]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.47:644][983]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.47:669][984]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.47:719][985]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.47:764][986]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.47:815][987]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.47:869][988]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.47:917][989]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.47:967][990]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.48:018][991]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.48:060][992]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.48:111][993]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.48:159][994]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.48:211][995]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.48:259][996]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.48:308][997]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.48:356][998]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.48:402][999]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.48:448][  0]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.48:488][  1]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.48:534][  2]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.48:579][  3]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.48:626][  4]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.48:667][  5]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.48:712][  6]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.48:756][  7]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.48:801][  8]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.48:844][  9]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.48:888][ 10]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.48:935][ 11]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.48:976][ 12]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.49:020][ 13]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.49:064][ 14]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.49:110][ 15]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.49:156][ 16]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.49:198][ 17]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.49:246][ 18]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.49:284][ 19]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.49:329][ 20]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.49:375][ 21]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.49:420][ 22]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.49:460][ 23]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.49:505][ 24]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.49:548][ 25]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.49:597][ 26]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.49:640][ 27]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.49:681][ 28]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.49:726][ 29]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.49:774][ 30]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.49:817][ 31]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.49:859][ 32]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.49:908][ 33]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.49:953][ 34]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.49:994][ 35]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.50:035][ 36]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.50:084][ 37]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.50:122][ 38]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.50:162][ 39]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.50:200][ 40]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.50:239][ 41]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.50:278][ 42]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.50:316][ 43]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.50:352][ 44]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.50:388][ 45]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.50:424][ 46]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.50:460][ 47]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.50:497][ 48]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.50:531][ 49]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.50:567][ 50]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.50:603][ 51]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.50:642][ 52]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.50:677][ 53]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.50:714][ 54]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.50:751][ 55]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.50:787][ 56]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.50:821][ 57]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.50:858][ 58]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.50:899][ 59]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.50:935][ 60]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.50:972][ 61]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.51:007][ 62]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.51:043][ 63]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.51:080][ 64]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.51:115][ 65]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.51:148][ 66]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.51:184][ 67]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.51:220][ 68]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.51:256][ 69]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.51:289][ 70]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.51:331][ 71]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.51:371][ 72]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.51:406][ 73]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.51:439][ 74]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.51:474][ 75]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.51:510][ 76]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.51:548][ 77]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.51:579][ 78]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.51:614][ 79]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.51:650][ 80]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.51:693][ 81]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.51:726][ 82]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.51:762][ 83]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.51:795][ 84]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.51:831][ 85]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 180
+[2017.07.20-15.21.51:873][ 86]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.51:909][ 87]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.51:946][ 88]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.51:984][ 89]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.52:019][ 90]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.52:059][ 91]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.52:089][ 92]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.52:128][ 93]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.52:167][ 94]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.52:197][ 95]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.52:236][ 96]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.52:272][ 97]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.52:306][ 98]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.52:342][ 99]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.52:380][100]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.52:418][101]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.52:457][102]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.52:497][103]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.52:534][104]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.52:573][105]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.52:614][106]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.52:650][107]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.52:687][108]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.52:726][109]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.52:769][110]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.52:807][111]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.52:844][112]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.52:885][113]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.52:922][114]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.52:963][115]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.53:004][116]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.53:039][117]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.53:078][118]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.53:118][119]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.53:154][120]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.53:192][121]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.53:229][122]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.53:263][123]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.53:300][124]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.53:334][125]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.53:374][126]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.53:409][127]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.53:445][128]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.53:482][129]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.53:519][130]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.53:552][131]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.53:589][132]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.53:621][133]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.53:657][134]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.53:695][135]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.53:732][136]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.53:764][137]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.53:803][138]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.53:840][139]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.53:873][140]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.53:911][141]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.53:947][142]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.53:984][143]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.54:018][144]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.54:054][145]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.54:094][146]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.54:126][147]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.54:162][148]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.54:200][149]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.54:240][150]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.54:272][151]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.54:313][152]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.54:346][153]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.54:384][154]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.54:416][155]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.54:452][156]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.54:490][157]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.54:525][158]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.54:557][159]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.54:593][160]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.54:636][161]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.54:668][162]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.54:701][163]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.54:740][164]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.54:778][165]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.54:814][166]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.54:849][167]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.54:882][168]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.54:924][169]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.54:962][170]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.54:989][171]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.55:032][172]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.55:068][173]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.55:100][174]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.55:135][175]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.55:172][176]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.55:208][177]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.55:247][178]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.55:282][179]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.55:315][180]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.55:354][181]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.55:392][182]LogBlueprintUserMessages: [PawnCamera1_Blueprint] 190
+[2017.07.20-15.21.55:394][182]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-15.21.55:480][182]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-15.22.11:823][397]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD" FILE="../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Content/HUD.uasset" SILENT=true
+[2017.07.20-15.22.11:856][397]LogSavePackage: Save=21.08ms
+[2017.07.20-15.22.11:857][397]LogSavePackage: Moving '../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Saved/HUDD9EA5C224AD97C4AD799DAA0E220B413.tmp' to '../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Content/HUD.uasset'
+[2017.07.20-15.22.11:862][397]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Content/HUD.uasset
+[2017.07.20-15.22.46:579][459]BlueprintLog: New page: Compile PawnCamera1_Blueprint
+[2017.07.20-15.22.48:744][692]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PawnCamera1_Blueprint" FILE="../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Content/PawnCamera1_Blueprint.uasset" SILENT=true
+[2017.07.20-15.22.48:773][692]LogSavePackage: Save=16.82ms
+[2017.07.20-15.22.48:773][692]LogSavePackage: Moving '../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Saved/PawnCamera1_Blueprint115899A64837B9D8E47E76B50ACA08BB.tmp' to '../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Content/PawnCamera1_Blueprint.uasset'
+[2017.07.20-15.22.48:778][692]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Content/PawnCamera1_Blueprint.uasset
+[2017.07.20-15.22.53:667][271]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUD" FILE="../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Content/HUD.uasset" SILENT=true
+[2017.07.20-15.22.53:693][271]LogSavePackage: Save=17.57ms
+[2017.07.20-15.22.53:693][271]LogSavePackage: Moving '../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Saved/HUD61B125784E7C032948B49887CE623073.tmp' to '../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Content/HUD.uasset'
+[2017.07.20-15.22.53:698][271]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Content/HUD.uasset
+[2017.07.20-15.22.55:127][442]BlueprintLog: New page: Compile HUD
+[2017.07.20-15.22.59:475][786]LogSavePackage: Save=129.67ms
+[2017.07.20-15.22.59:475][786]LogSavePackage: Moving '../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Saved/Minimal_Default8C8C041C4F0A5AB7316033BBA1FF45ED.tmp' to '../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Content/StarterContent/Maps/Minimal_Default.umap'
+[2017.07.20-15.22.59:484][786]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Content/StarterContent/Maps/Minimal_Default.umap
+[2017.07.20-15.22.59:508][786]LogFileHelpers: Saving map 'Minimal_Default' took 0.284
+[2017.07.20-15.23.00:984][848]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.20-15.23.00:999][848]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.20-15.23.00:999][848]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.20-15.23.00:999][848]PIE: New page: PIE session: Minimal_Default (Jul 20, 2017, 7:23:00 PM)
+[2017.07.20-15.23.01:000][848]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.07.20-15.23.01:012][848]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011812s)
+[2017.07.20-15.23.01:012][848]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.07.20-15.23.01:013][848]LogPlayLevel: PIE: World Init took: (0.000775s)
+[2017.07.20-15.23.01:013][848]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.013153s)
+[2017.07.20-15.23.01:062][848]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.20-15.23.01:070][848]LogInit: FAudioDevice initialized.
+[2017.07.20-15.23.01:109][848]LogLoad: Game class is 'GameModeBase'
+[2017.07.20-15.23.01:111][848]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.07.20-17.23.01
+[2017.07.20-15.23.01:112][848]LogWorld: Bringing up level for play took: 0.001592
+[2017.07.20-15.23.01:117][848]LogScript:Warning: Accessed None trying to read property My Character
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.HUD_C_2
+	Function /Game/HUD.HUD_C:GetText_0:003D
+[2017.07.20-15.23.01:118][848]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'GetText_0' from node: Return Node in graph: GetText_0 in object: HUD with description: Accessed None trying to read property My Character
+[2017.07.20-15.23.01:122][848]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.268
+[2017.07.20-15.23.01:122][848]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.24-16.05.22:963][819]LogHttp:Warning: 000001E5C26F4880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.07.24-16.05.22:964][819]LogHttp:Warning: 000001E5C26F4880: libcurl info message cache 0 (Connection 17 seems to be dead!)
+[2017.07.24-16.05.23:032][819]LogHttp:Warning: 000001E5C26F4880: libcurl info message cache 1 (Closing connection 17)
+[2017.07.24-16.05.23:032][819]LogHttp:Warning: 000001E5C26F4880: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.07.24-16.05.23:032][819]LogHttp:Warning: 000001E5C26F4880: libcurl info message cache 3 (Closing connection 18)
+[2017.07.24-16.07.07:424][132]LogHttp:Warning: 000001E60DDB5300: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.07.24-16.07.07:425][132]LogHttp:Warning: 000001E60DDB5300: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.07.24-16.07.07:425][132]LogHttp:Warning: 000001E60DDB5300: libcurl info message cache 1 (Closing connection 19)
+[2017.07.24-16.34.03:982][ 84]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.24-16.34.04:071][ 84]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.07.24-16.34.04:146][ 84]LightingResults: New page: Lighting Build
+[2017.07.24-16.34.04:153][ 84]MapCheck: New page: Map Check
+[2017.07.24-16.34.04:154][ 84]LightingResults: New page: Lighting Build
+[2017.07.24-16.34.04:215][ 84]LogAIModule: Creating AISystem for world Untitled
+[2017.07.24-16.34.04:222][ 84]LoadErrors: New page: New Map
+[2017.07.24-16.35.20:100][365]LightingResults: New page: Lighting Build
+[2017.07.24-16.35.20:101][365]MapCheck: New page: Map Check
+[2017.07.24-16.35.20:101][365]LightingResults: New page: Lighting Build
+[2017.07.24-16.35.20:209][365]LogAIModule: Creating AISystem for world Untitled
+[2017.07.24-16.35.20:233][365]LoadErrors: New page: New Map
+[2017.07.24-16.35.39:040][870]LogSavePackage: Save=10.40ms
+[2017.07.24-16.35.39:040][870]LogSavePackage: Moving '../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Saved/MainMenu6B29382342942A8BA256A3842F4F52E9.tmp' to '../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Content/Maps/MainMenu.umap'
+[2017.07.24-16.35.39:042][870]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Content/Maps/MainMenu.umap
+[2017.07.24-16.35.39:075][870]LogFileHelpers: Saving map 'MainMenu' took 0.889
+[2017.07.24-16.35.39:081][870]Cmd: MAP LOAD FILE="../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.24-16.35.39:090][870]LightingResults: New page: Lighting Build
+[2017.07.24-16.35.39:095][870]LoadErrors: New page: Loading map: MainMenu.umap
+[2017.07.24-16.35.39:096][870]MapCheck: New page: Map Check
+[2017.07.24-16.35.39:096][870]LightingResults: New page: Lighting Build
+[2017.07.24-16.35.39:140][870]LogAIModule: Creating AISystem for world MainMenu
+[2017.07.24-16.35.39:154][870]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.24-16.35.39:183][870]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.24-16.35.39:268][870]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 84.72ms to complete.
+[2017.07.24-16.35.39:268][870]LogFileHelpers: Loading map 'MainMenu' took 0.194
+[2017.07.24-16.41.41:972][161]LogMetaData: Removing '/Game/UI/HUD.HUD_C' ref from Metadata '/Game/HUD.PackageMetaData'
+[2017.07.24-16.41.41:972][161]LogMetaData: Removing '/Game/UI/HUD.HUD:EventGraph.K2Node_Event_0' ref from Metadata '/Game/HUD.PackageMetaData'
+[2017.07.24-16.41.41:972][161]LogMetaData: Removing '/Game/UI/HUD.HUD:EventGraph.K2Node_Event_1' ref from Metadata '/Game/HUD.PackageMetaData'
+[2017.07.24-16.41.41:972][161]LogMetaData: Removing '/Game/UI/HUD.HUD_C:My Character' ref from Metadata '/Game/HUD.PackageMetaData'
+[2017.07.24-16.41.41:972][161]LogMetaData: Removing '/Game/UI/HUD.HUD:GetText_0.K2Node_FunctionResult_4' ref from Metadata '/Game/HUD.PackageMetaData'
+[2017.07.24-16.41.41:972][161]LogMetaData: Removing '/Game/UI/HUD.HUD_C:Image_158' ref from Metadata '/Game/HUD.PackageMetaData'
+[2017.07.24-16.41.41:973][161]LogMetaData: Removing '/Game/UI/HUD.HUD_C:EditableTextBox_5' ref from Metadata '/Game/HUD.PackageMetaData'
+[2017.07.24-16.41.41:973][161]LogMetaData: Removing '/Game/UI/HUD.HUD_C:EditableTextBox_4' ref from Metadata '/Game/HUD.PackageMetaData'
+[2017.07.24-16.41.41:973][161]LogMetaData: Removing '/Game/UI/HUD.HUD_C:Construct' ref from Metadata '/Game/HUD.PackageMetaData'
+[2017.07.24-16.41.41:973][161]LogMetaData: Removing '/Game/UI/HUD.HUD_C:ExecuteUbergraph_HUD' ref from Metadata '/Game/HUD.PackageMetaData'
+[2017.07.24-16.41.41:973][161]LogMetaData: Removing '/Game/UI/HUD.HUD:GetText_0.K2Node_FunctionEntry_85' ref from Metadata '/Game/HUD.PackageMetaData'
+[2017.07.24-16.41.41:973][161]LogMetaData: Removing '/Game/UI/HUD.SKEL_HUD_C:ExecuteUbergraph_HUD' ref from Metadata '/Game/HUD.PackageMetaData'
+[2017.07.24-16.41.41:974][161]LogMetaData: Removing '/Game/UI/HUD.SKEL_HUD_C:Construct' ref from Metadata '/Game/HUD.PackageMetaData'
+[2017.07.24-16.41.41:974][161]LogMetaData: Removing '/Game/UI/HUD.SKEL_HUD_C:EditableTextBox_4' ref from Metadata '/Game/HUD.PackageMetaData'
+[2017.07.24-16.41.41:974][161]LogMetaData: Removing '/Game/UI/HUD.SKEL_HUD_C:EditableTextBox_5' ref from Metadata '/Game/HUD.PackageMetaData'
+[2017.07.24-16.41.41:974][161]LogMetaData: Removing '/Game/UI/HUD.SKEL_HUD_C:Image_158' ref from Metadata '/Game/HUD.PackageMetaData'
+[2017.07.24-16.41.41:974][161]LogMetaData: Removing '/Game/UI/HUD.SKEL_HUD_C:My Character' ref from Metadata '/Game/HUD.PackageMetaData'
+[2017.07.24-16.41.41:974][161]LogMetaData: Removing '/Game/UI/HUD.SKEL_HUD_C' ref from Metadata '/Game/HUD.PackageMetaData'
+[2017.07.24-16.41.41:991][161]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/HUD" FILE="../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Content/UI/HUD.uasset" SILENT=true
+[2017.07.24-16.41.42:021][161]LogSavePackage: Save=27.23ms
+[2017.07.24-16.41.42:021][161]LogSavePackage: Moving '../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Saved/HUD8E6556B64A14CA85798E1492EBAD5814.tmp' to '../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Content/UI/HUD.uasset'
+[2017.07.24-16.41.42:026][161]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Content/UI/HUD.uasset
+[2017.07.24-16.41.42:237][161]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PawnCamera1_Blueprint" FILE="../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Content/PawnCamera1_Blueprint.uasset" SILENT=true
+[2017.07.24-16.41.42:269][161]LogSavePackage: Save=15.73ms
+[2017.07.24-16.41.42:269][161]LogSavePackage: Moving '../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Saved/PawnCamera1_Blueprint96A9B8D3436936F3DB10A290ADB8D139.tmp' to '../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Content/PawnCamera1_Blueprint.uasset'
+[2017.07.24-16.41.42:272][161]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Content/PawnCamera1_Blueprint.uasset
+[2017.07.24-16.42.37:798][593]LogMetaData: Removing '/Game/UI/MainMenu.MainMenu_C' ref from Metadata '/Game/MainMenu.PackageMetaData'
+[2017.07.24-16.42.37:798][593]LogMetaData: Removing '/Game/UI/MainMenu.MainMenu:EventGraph.K2Node_Event_0' ref from Metadata '/Game/MainMenu.PackageMetaData'
+[2017.07.24-16.42.37:798][593]LogMetaData: Removing '/Game/UI/MainMenu.MainMenu:EventGraph.K2Node_Event_1' ref from Metadata '/Game/MainMenu.PackageMetaData'
+[2017.07.24-16.42.37:798][593]LogMetaData: Removing '/Game/UI/MainMenu.SKEL_MainMenu_C' ref from Metadata '/Game/MainMenu.PackageMetaData'
+[2017.07.24-16.42.37:812][593]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/MainMenu" FILE="../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Content/UI/MainMenu.uasset" SILENT=true
+[2017.07.24-16.42.37:822][593]LogSavePackage: Save=7.14ms
+[2017.07.24-16.42.37:822][593]LogSavePackage: Moving '../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Saved/MainMenuFB3F38F34FCD57F249BC4BA928EB5E9B.tmp' to '../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Content/UI/MainMenu.uasset'
+[2017.07.24-16.42.37:827][593]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Content/UI/MainMenu.uasset
+[2017.07.24-16.46.03:258][392]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.07.24-16.46.03:626][403]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.SecondPlayer
+
+[2017.07.24-16.46.03:627][403]LogTemp:Display: CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.07.24-16.46.03:629][403]LogTemp:Display: Initial Dir: C:\Program Files\Epic Games\UE_4.15
+
+[2017.07.24-16.46.03:630][403]LogTemp:Display: Env CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.07.24-16.46.03:631][403]LogTemp:Display: BranchPath = LAPTOP-GONF5L48/C/Program Files/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = LAPTOP-GONF5L48/C/Program Files/Epic Games/UE_4.15/Engine/Binaries
+
+[2017.07.24-16.46.04:064][418]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: No se puede encontrar una parte de la ruta de acceso 'C:\Users\Guille\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2017.07.24-16.46.04:067][418]LogTemp:Display:    en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.07.24-16.46.04:069][418]LogTemp:Display:    en System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.07.24-16.46.04:073][418]LogTemp:Display:    en System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.07.24-16.46.04:076][418]LogTemp:Display:    en iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.07.24-16.46.04:078][418]LogTemp:Display:    en iPhonePackager.Program.Main(String[] args)
+
+[2017.07.24-16.46.23:070][367]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.24-16.46.23:093][367]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.07.24-16.46.23:094][367]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.24-16.46.23:097][367]PIE: New page: PIE session: MainMenu (Jul 24, 2017, 8:46:23 PM)
+[2017.07.24-16.46.23:100][367]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2017.07.24-16.46.23:104][367]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004541s)
+[2017.07.24-16.46.23:105][367]LogAIModule: Creating AISystem for world MainMenu
+[2017.07.24-16.46.23:106][367]LogPlayLevel: PIE: World Init took: (0.001698s)
+[2017.07.24-16.46.23:107][367]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.008297s)
+[2017.07.24-16.46.23:146][367]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.24-16.46.23:159][367]LogInit: FAudioDevice initialized.
+[2017.07.24-16.46.23:218][367]LogLoad: Game class is 'GameModeBase'
+[2017.07.24-16.46.23:220][367]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2017.07.24-18.46.23
+[2017.07.24-16.46.23:221][367]LogWorld: Bringing up level for play took: 0.001698
+[2017.07.24-16.46.23:275][367]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainMenu 1.117
+[2017.07.24-16.46.23:275][367]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.07.24-16.46.28:565][506]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.07.24-16.46.28:698][506]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.07.24-16.46.57:210][948]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.24-16.46.57:231][948]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.07.24-16.46.57:232][948]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.24-16.46.57:232][948]PIE: New page: PIE session: MainMenu (Jul 24, 2017, 8:46:57 PM)
+[2017.07.24-16.46.57:233][948]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2017.07.24-16.46.57:234][948]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001124s)
+[2017.07.24-16.46.57:235][948]LogAIModule: Creating AISystem for world MainMenu
+[2017.07.24-16.46.57:235][948]LogPlayLevel: PIE: World Init took: (0.001023s)
+[2017.07.24-16.46.57:235][948]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.002779s)
+[2017.07.24-16.46.57:277][948]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.24-16.46.57:285][948]LogInit: FAudioDevice initialized.
+[2017.07.24-16.46.57:330][948]LogLoad: Game class is 'GameModeBase'
+[2017.07.24-16.46.57:331][948]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2017.07.24-18.46.57
+[2017.07.24-16.46.57:332][948]LogWorld: Bringing up level for play took: 0.001183
+[2017.07.24-16.46.57:337][948]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainMenu -0.82
+[2017.07.24-16.46.57:337][948]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.07.24-16.47.02:353][ 37]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.07.24-16.47.02:439][ 37]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.07.24-16.47.15:184][666]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.07.24-16.47.15:364][669]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.SecondPlayer
+
+[2017.07.24-16.47.15:364][669]LogTemp:Display: CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.07.24-16.47.15:364][669]LogTemp:Display: Initial Dir: C:\Program Files\Epic Games\UE_4.15
+
+[2017.07.24-16.47.15:365][669]LogTemp:Display: Env CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.07.24-16.47.15:365][669]LogTemp:Display: BranchPath = LAPTOP-GONF5L48/C/Program Files/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = LAPTOP-GONF5L48/C/Program Files/Epic Games/UE_4.15/Engine/Binaries
+
+[2017.07.24-16.47.15:500][672]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: No se puede encontrar una parte de la ruta de acceso 'C:\Users\Guille\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2017.07.24-16.47.15:500][672]LogTemp:Display:    en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.07.24-16.47.15:500][672]LogTemp:Display:    en System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.07.24-16.47.15:500][672]LogTemp:Display:    en System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.07.24-16.47.15:501][672]LogTemp:Display:    en iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.07.24-16.47.15:501][672]LogTemp:Display:    en iPhonePackager.Program.Main(String[] args)
+
+[2017.07.24-16.47.45:259][286]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.24-16.47.45:276][286]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.07.24-16.47.45:277][286]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.24-16.47.45:277][286]PIE: New page: PIE session: MainMenu (Jul 24, 2017, 8:47:45 PM)
+[2017.07.24-16.47.45:277][286]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2017.07.24-16.47.45:278][286]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000920s)
+[2017.07.24-16.47.45:279][286]LogAIModule: Creating AISystem for world MainMenu
+[2017.07.24-16.47.45:279][286]LogPlayLevel: PIE: World Init took: (0.000827s)
+[2017.07.24-16.47.45:279][286]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.002331s)
+[2017.07.24-16.47.45:313][286]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.24-16.47.45:322][286]LogInit: FAudioDevice initialized.
+[2017.07.24-16.47.45:361][286]LogLoad: Game class is 'GameModeBase'
+[2017.07.24-16.47.45:362][286]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2017.07.24-18.47.45
+[2017.07.24-16.47.45:363][286]LogWorld: Bringing up level for play took: 0.001174
+[2017.07.24-16.47.45:369][286]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainMenu -0.789
+[2017.07.24-16.47.45:369][286]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.07.24-16.47.47:017][315]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.07.24-16.47.47:076][315]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.07.24-16.47.49:310][440]Cmd: TRANSACTION UNDO
+[2017.07.24-16.47.49:315][440]LogEditorTransaction: Undo Edit Editor Startup Map
+[2017.07.24-16.47.49:482][445]Cmd: TRANSACTION UNDO
+[2017.07.24-16.47.49:482][445]LogEditorTransaction: Undo Edit Game Default Map
+[2017.07.24-16.47.49:633][454]Cmd: TRANSACTION UNDO
+[2017.07.24-16.47.49:633][454]LogEditorTransaction: Undo Edit Game Default Map
+[2017.07.24-16.47.49:796][463]Cmd: TRANSACTION UNDO
+[2017.07.24-16.47.49:796][463]LogEditorTransaction: Undo Edit Editor Startup Map
+[2017.07.24-16.47.49:972][471]Cmd: TRANSACTION UNDO
+[2017.07.24-16.47.49:973][471]LogEditorTransaction: Undo Delete current selection
+[2017.07.24-16.47.50:231][483]Cmd: TRANSACTION UNDO
+[2017.07.24-16.47.50:231][483]LogEditorTransaction: Undo Create Pin Link
+[2017.07.24-16.47.50:519][500]Cmd: TRANSACTION UNDO
+[2017.07.24-16.47.50:520][500]LogEditorTransaction: Undo Create Pin Link
+[2017.07.24-16.48.13:116][399]LogSavePackage: Save=125.73ms
+[2017.07.24-16.48.13:116][399]LogSavePackage: Moving '../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Saved/MainMenuD7FACBCE4CE66172C6202EA1CB5C0A4D.tmp' to '../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Content/Maps/MainMenu.umap'
+[2017.07.24-16.48.13:121][399]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Content/Maps/MainMenu.umap
+[2017.07.24-16.48.13:145][399]LogFileHelpers: Saving map 'MainMenu' took 0.552
+[2017.07.24-16.48.13:272][399]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.24-16.48.13:536][400]Cmd: QUIT_EDITOR
+[2017.07.24-16.48.13:959][400]LogExit: Preparing to exit.
+[2017.07.24-16.48.14:413][400]LogDirectoryWatcher: A directory notification for 'C:/Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Content/' was aborted.
+[2017.07.24-16.48.14:620][400]LogExit: Editor shut down
+[2017.07.24-16.48.14:622][400]LogExit: Transaction tracking system shut down
+[2017.07.24-16.48.14:996][400]LogObj: Freed 0b from 0 cluster array pools.
+[2017.07.24-16.48.14:996][400]LogExit: Object subsystem successfully closed.
+[2017.07.24-16.48.15:075][400]LogD3D11RHI: Shutdown
+[2017.07.24-16.48.15:075][400]LogD3D11RHI: CleanupD3DDevice
+[2017.07.24-16.48.15:218][400]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.07.24-16.48.15:297][400]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (516)
+[2017.07.24-16.48.15:297][400]LogModuleManager: Shutting down and abandoning module NewLevelDialog (514)
+[2017.07.24-16.48.15:297][400]LogModuleManager: Shutting down and abandoning module SecondPlayer (512)
+[2017.07.24-16.48.15:297][400]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (510)
+[2017.07.24-16.48.15:298][400]LogModuleManager: Shutting down and abandoning module SequencerWidgets (508)
+[2017.07.24-16.48.15:298][400]LogModuleManager: Shutting down and abandoning module BlueprintGraph (506)
+[2017.07.24-16.48.15:298][400]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (504)
+[2017.07.24-16.48.15:300][400]LogModuleManager: Shutting down and abandoning module SynthBenchmark (502)
+[2017.07.24-16.48.15:300][400]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (500)
+[2017.07.24-16.48.15:300][400]LogModuleManager: Shutting down and abandoning module CrashTracker (498)
+[2017.07.24-16.48.15:301][400]LogModuleManager: Shutting down and abandoning module SceneOutliner (496)
+[2017.07.24-16.48.15:301][400]LogModuleManager: Shutting down and abandoning module AddContentDialog (494)
+[2017.07.24-16.48.15:305][400]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.07.24-16.48.15:315][400]LogModuleManager: Shutting down and abandoning module WidgetCarousel (493)
+[2017.07.24-16.48.15:315][400]LogModuleManager: Shutting down and abandoning module EditorWidgets (490)
+[2017.07.24-16.48.15:316][400]LogModuleManager: Shutting down and abandoning module CollectionManager (488)
+[2017.07.24-16.48.15:317][400]LogDirectoryWatcher: A directory notification for 'C:/Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Content/Collections/' was aborted.
+[2017.07.24-16.48.15:317][400]LogDirectoryWatcher: A directory notification for 'C:/Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Content/Developers/Guille/Collections/' was aborted.
+[2017.07.24-16.48.15:317][400]LogDirectoryWatcher: A directory notification for 'C:/Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Saved/Collections/' was aborted.
+[2017.07.24-16.48.15:317][400]LogModuleManager: Shutting down and abandoning module StatsViewer (486)
+[2017.07.24-16.48.15:319][400]LogModuleManager: Shutting down and abandoning module FoliageEdit (484)
+[2017.07.24-16.48.15:319][400]LogModuleManager: Shutting down and abandoning module LandscapeEditor (482)
+[2017.07.24-16.48.15:322][400]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (480)
+[2017.07.24-16.48.15:322][400]LogModuleManager: Shutting down and abandoning module ActorPickerMode (478)
+[2017.07.24-16.48.15:322][400]LogModuleManager: Shutting down and abandoning module GeometryMode (476)
+[2017.07.24-16.48.15:322][400]LogModuleManager: Shutting down and abandoning module TextureAlignMode (474)
+[2017.07.24-16.48.15:322][400]LogModuleManager: Shutting down and abandoning module BspMode (472)
+[2017.07.24-16.48.15:323][400]LogModuleManager: Shutting down and abandoning module HardwareSurvey (470)
+[2017.07.24-16.48.15:323][400]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (468)
+[2017.07.24-16.48.15:323][400]LogModuleManager: Shutting down and abandoning module AutomationWorker (466)
+[2017.07.24-16.48.15:324][400]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (464)
+[2017.07.24-16.48.15:324][400]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (462)
+[2017.07.24-16.48.15:324][400]LogModuleManager: Shutting down and abandoning module PlacementMode (461)
+[2017.07.24-16.48.15:324][400]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (458)
+[2017.07.24-16.48.15:325][400]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (456)
+[2017.07.24-16.48.15:325][400]LogModuleManager: Shutting down and abandoning module MfMediaFactory (454)
+[2017.07.24-16.48.15:325][400]LogModuleManager: Shutting down and abandoning module MfMediaEditor (452)
+[2017.07.24-16.48.15:325][400]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (450)
+[2017.07.24-16.48.15:325][400]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (448)
+[2017.07.24-16.48.15:325][400]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (446)
+[2017.07.24-16.48.15:325][400]LogModuleManager: Shutting down and abandoning module Media (445)
+[2017.07.24-16.48.15:325][400]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (442)
+[2017.07.24-16.48.15:325][400]LogModuleManager: Shutting down and abandoning module CharacterAI (440)
+[2017.07.24-16.48.15:325][400]LogModuleManager: Shutting down and abandoning module AudioCapture (438)
+[2017.07.24-16.48.15:325][400]LogModuleManager: Shutting down and abandoning module SequenceRecorder (437)
+[2017.07.24-16.48.15:327][400]LogModuleManager: Shutting down and abandoning module SmartSnapping (434)
+[2017.07.24-16.48.15:327][400]LogModuleManager: Shutting down and abandoning module SessionServices (432)
+[2017.07.24-16.48.15:327][400]LogModuleManager: Shutting down and abandoning module ViewportSnapping (430)
+[2017.07.24-16.48.15:327][400]LogModuleManager: Shutting down and abandoning module ViewportInteraction (428)
+[2017.07.24-16.48.15:327][400]LogModuleManager: Shutting down and abandoning module LogVisualizer (426)
+[2017.07.24-16.48.15:332][400]LogModuleManager: Shutting down and abandoning module IntroTutorials (424)
+[2017.07.24-16.48.15:334][400]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (423)
+[2017.07.24-16.48.15:337][400]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (420)
+[2017.07.24-16.48.15:337][400]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (418)
+[2017.07.24-16.48.15:337][400]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (416)
+[2017.07.24-16.48.15:337][400]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (414)
+[2017.07.24-16.48.15:337][400]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (413)
+[2017.07.24-16.48.16:158][400]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (410)
+[2017.07.24-16.48.16:158][400]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (408)
+[2017.07.24-16.48.16:158][400]LogModuleManager: Shutting down and abandoning module InputBindingEditor (406)
+[2017.07.24-16.48.16:159][400]LogModuleManager: Shutting down and abandoning module NiagaraEditor (404)
+[2017.07.24-16.48.16:162][400]LogModuleManager: Shutting down and abandoning module MergeActors (402)
+[2017.07.24-16.48.16:162][400]LogModuleManager: Shutting down and abandoning module SizeMap (400)
+[2017.07.24-16.48.16:163][400]LogModuleManager: Shutting down and abandoning module TreeMap (398)
+[2017.07.24-16.48.16:164][400]LogModuleManager: Shutting down and abandoning module ReferenceViewer (396)
+[2017.07.24-16.48.16:164][400]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (394)
+[2017.07.24-16.48.16:166][400]LogModuleManager: Shutting down and abandoning module LocalizationService (393)
+[2017.07.24-16.48.16:167][400]LogModuleManager: Shutting down and abandoning module HardwareTargeting (390)
+[2017.07.24-16.48.16:167][400]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (388)
+[2017.07.24-16.48.16:167][400]LogModuleManager: Shutting down and abandoning module UndoHistory (386)
+[2017.07.24-16.48.16:168][400]LogModuleManager: Shutting down and abandoning module UserFeedback (384)
+[2017.07.24-16.48.16:168][400]LogModuleManager: Shutting down and abandoning module XmlParser (382)
+[2017.07.24-16.48.16:168][400]LogModuleManager: Shutting down and abandoning module Blutility (380)
+[2017.07.24-16.48.16:168][400]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (378)
+[2017.07.24-16.48.16:169][400]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (377)
+[2017.07.24-16.48.16:170][400]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (374)
+[2017.07.24-16.48.16:170][400]LogModuleManager: Shutting down and abandoning module SettingsEditor (372)
+[2017.07.24-16.48.16:171][400]LogModuleManager: Shutting down and abandoning module ProjectLauncher (370)
+[2017.07.24-16.48.16:172][400]LogModuleManager: Shutting down and abandoning module SessionFrontend (368)
+[2017.07.24-16.48.16:172][400]LogModuleManager: Shutting down and abandoning module ProfilerClient (366)
+[2017.07.24-16.48.16:173][400]LogModuleManager: Shutting down and abandoning module DeviceManager (364)
+[2017.07.24-16.48.16:174][400]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (363)
+[2017.07.24-16.48.16:229][400]LogModuleManager: Shutting down and abandoning module AutomationController (360)
+[2017.07.24-16.48.16:230][400]LogModuleManager: Shutting down and abandoning module AutomationWindow (358)
+[2017.07.24-16.48.16:231][400]LogModuleManager: Shutting down and abandoning module Layers (356)
+[2017.07.24-16.48.16:233][400]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (354)
+[2017.07.24-16.48.16:233][400]LogModuleManager: Shutting down and abandoning module DetailCustomizations (352)
+[2017.07.24-16.48.16:234][400]LogModuleManager: Shutting down and abandoning module PackagesDialog (350)
+[2017.07.24-16.48.16:234][400]LogModuleManager: Shutting down and abandoning module Persona (348)
+[2017.07.24-16.48.16:235][400]LogModuleManager: Shutting down and abandoning module AnimGraph (347)
+[2017.07.24-16.48.16:235][400]LogModuleManager: Shutting down and abandoning module Kismet (344)
+[2017.07.24-16.48.16:245][400]LogModuleManager: Shutting down and abandoning module GraphEditor (342)
+[2017.07.24-16.48.16:245][400]LogModuleManager: Shutting down and abandoning module ClassViewer (340)
+[2017.07.24-16.48.16:246][400]LogModuleManager: Shutting down and abandoning module Toolbox (338)
+[2017.07.24-16.48.16:247][400]LogModuleManager: Shutting down and abandoning module ModuleUI (336)
+[2017.07.24-16.48.16:247][400]LogModuleManager: Shutting down and abandoning module MovieSceneTools (334)
+[2017.07.24-16.48.16:249][400]LogModuleManager: Shutting down and abandoning module OutputLog (332)
+[2017.07.24-16.48.16:249][400]LogModuleManager: Shutting down and abandoning module GammaUI (330)
+[2017.07.24-16.48.16:249][400]LogModuleManager: Shutting down and abandoning module Documentation (328)
+[2017.07.24-16.48.16:250][400]LogModuleManager: Shutting down and abandoning module Niagara (326)
+[2017.07.24-16.48.16:250][400]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (324)
+[2017.07.24-16.48.16:250][400]LogModuleManager: Shutting down and abandoning module AnalyticsET (322)
+[2017.07.24-16.48.16:250][400]LogModuleManager: Shutting down and abandoning module PortalServices (320)
+[2017.07.24-16.48.16:250][400]LogModuleManager: Shutting down and abandoning module PortalRpc (318)
+[2017.07.24-16.48.16:250][400]LogModuleManager: Shutting down and abandoning module MessagingRpc (316)
+[2017.07.24-16.48.16:250][400]LogModuleManager: Shutting down and abandoning module AIModule (314)
+[2017.07.24-16.48.16:251][400]LogModuleManager: Shutting down and abandoning module GameplayDebugger (313)
+[2017.07.24-16.48.16:251][400]LogModuleManager: Shutting down and abandoning module AITestSuite (311)
+[2017.07.24-16.48.16:252][400]LogModuleManager: Shutting down and abandoning module ProfilerService (308)
+[2017.07.24-16.48.16:305][400]LogModuleManager: Shutting down and abandoning module TaskGraph (306)
+[2017.07.24-16.48.16:307][400]LogModuleManager: Shutting down and abandoning module SteamVRController (304)
+[2017.07.24-16.48.16:307][400]LogModuleManager: Shutting down and abandoning module SteamVR (302)
+[2017.07.24-16.48.16:307][400]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (300)
+[2017.07.24-16.48.16:307][400]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (298)
+[2017.07.24-16.48.16:307][400]LogModuleManager: Shutting down and abandoning module OculusLibrary (296)
+[2017.07.24-16.48.16:307][400]LogModuleManager: Shutting down and abandoning module OculusInput (294)
+[2017.07.24-16.48.16:307][400]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (292)
+[2017.07.24-16.48.16:308][400]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (290)
+[2017.07.24-16.48.16:308][400]LogModuleManager: Shutting down and abandoning module CableComponent (288)
+[2017.07.24-16.48.16:308][400]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (286)
+[2017.07.24-16.48.16:308][400]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (282)
+[2017.07.24-16.48.16:310][400]LogModuleManager: Shutting down and abandoning module HTML5Networking (280)
+[2017.07.24-16.48.16:310][400]LogModuleManager: Shutting down and abandoning module AlembicImporter (278)
+[2017.07.24-16.48.16:311][400]LogModuleManager: Shutting down and abandoning module AlembicLibrary (277)
+[2017.07.24-16.48.16:311][400]LogModuleManager: Shutting down and abandoning module GeometryCache (276)
+[2017.07.24-16.48.16:311][400]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (275)
+[2017.07.24-16.48.16:311][400]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (270)
+[2017.07.24-16.48.16:311][400]LogModuleManager: Shutting down and abandoning module SuperSearch (269)
+[2017.07.24-16.48.16:311][400]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (266)
+[2017.07.24-16.48.16:311][400]LogModuleManager: Shutting down and abandoning module PluginBrowser (264)
+[2017.07.24-16.48.16:314][400]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (262)
+[2017.07.24-16.48.16:316][400]LogModuleManager: Shutting down and abandoning module EpicSurvey (260)
+[2017.07.24-16.48.16:318][400]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (258)
+[2017.07.24-16.48.16:319][400]LogModuleManager: Shutting down and abandoning module DesktopPlatform (257)
+[2017.07.24-16.48.16:320][400]LogModuleManager: Shutting down and abandoning module UObjectPlugin (254)
+[2017.07.24-16.48.16:320][400]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (252)
+[2017.07.24-16.48.16:321][400]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (250)
+[2017.07.24-16.48.16:324][400]LogModuleManager: Shutting down and abandoning module GitSourceControl (248)
+[2017.07.24-16.48.16:326][400]LogModuleManager: Shutting down and abandoning module SourceControl (247)
+[2017.07.24-16.48.16:326][400]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (244)
+[2017.07.24-16.48.16:327][400]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (242)
+[2017.07.24-16.48.16:327][400]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (240)
+[2017.07.24-16.48.16:327][400]LogModuleManager: Shutting down and abandoning module Paper2DEditor (238)
+[2017.07.24-16.48.16:328][400]LogModuleManager: Shutting down and abandoning module MeshPaint (237)
+[2017.07.24-16.48.16:329][400]LogModuleManager: Shutting down and abandoning module LevelEditor (235)
+[2017.07.24-16.48.16:331][400]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (234)
+[2017.07.24-16.48.16:332][400]LogModuleManager: Shutting down and abandoning module MainFrame (232)
+[2017.07.24-16.48.16:332][400]LogModuleManager: Shutting down and abandoning module HotReload (231)
+[2017.07.24-16.48.16:332][400]LogDirectoryWatcher: A directory notification for 'C:/Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Binaries/Win64' was aborted.
+[2017.07.24-16.48.16:333][400]LogModuleManager: Shutting down and abandoning module ContentBrowser (227)
+[2017.07.24-16.48.16:337][400]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.07.24-16.48.16:338][400]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.07.24-16.48.16:338][400]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.07.24-16.48.16:338][400]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.07.24-16.48.16:439][400]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.07.24-16.48.16:539][400]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.07.24-16.48.16:539][400]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.07.24-16.48.16:540][400]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.07.24-16.48.16:540][400]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.07.24-16.48.16:540][400]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.07.24-16.48.16:540][400]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.07.24-16.48.16:540][400]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.07.24-16.48.16:542][400]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.07.24-16.48.16:542][400]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.07.24-16.48.16:542][400]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.07.24-16.48.16:543][400]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.07.24-16.48.16:544][400]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.07.24-16.48.16:544][400]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.07.24-16.48.16:546][400]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.07.24-16.48.16:546][400]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.07.24-16.48.16:548][400]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.07.24-16.48.16:548][400]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.07.24-16.48.16:548][400]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.07.24-16.48.16:548][400]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.07.24-16.48.16:552][400]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.07.24-16.48.16:552][400]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.07.24-16.48.16:553][400]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.07.24-16.48.16:556][400]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.07.24-16.48.16:556][400]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.07.24-16.48.16:562][400]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.07.24-16.48.16:562][400]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.07.24-16.48.16:562][400]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.07.24-16.48.16:562][400]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.07.24-16.48.16:562][400]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.07.24-16.48.16:562][400]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.07.24-16.48.16:755][400]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.07.24-16.48.16:756][400]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Content/' was aborted.
+[2017.07.24-16.48.16:756][400]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.07.24-16.48.16:756][400]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.07.24-16.48.16:760][400]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.07.24-16.48.16:760][400]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.07.24-16.48.16:761][400]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.07.24-16.48.16:762][400]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.07.24-16.48.16:763][400]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.07.24-16.48.16:763][400]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.07.24-16.48.16:764][400]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.07.24-16.48.16:764][400]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.07.24-16.48.16:822][400]LogDerivedDataCache: Shutdown
+[2017.07.24-16.48.16:822][400]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.07.24-16.48.16:822][400]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.07.24-16.48.16:822][400]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.07.24-16.48.16:823][400]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.07.24-16.48.16:823][400]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.07.24-16.48.16:824][400]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.07.24-16.48.16:824][400]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.07.24-16.48.16:824][400]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.07.24-16.48.16:825][400]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.07.24-16.48.16:828][400]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.07.24-16.48.16:828][400]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.07.24-16.48.16:828][400]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.07.24-16.48.16:828][400]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.07.24-16.48.16:829][400]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.07.24-16.48.16:829][400]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.07.24-16.48.16:829][400]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.07.24-16.48.16:829][400]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.07.24-16.48.16:829][400]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.07.24-16.48.16:829][400]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.07.24-16.48.16:829][400]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.07.24-16.48.16:829][400]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.07.24-16.48.16:829][400]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.07.24-16.48.16:829][400]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.07.24-16.48.16:830][400]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.07.24-16.48.16:830][400]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.07.24-16.48.16:830][400]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.07.24-16.48.16:830][400]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.07.24-16.48.16:830][400]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.07.24-16.48.16:830][400]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.07.24-16.48.16:830][400]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.07.24-16.48.16:830][400]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.07.24-16.48.16:830][400]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.07.24-16.48.16:830][400]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.07.24-16.48.16:831][400]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.07.24-16.48.16:831][400]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.07.24-16.48.16:831][400]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.07.24-16.48.16:831][400]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.07.24-16.48.16:831][400]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.07.24-16.48.16:832][400]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.07.24-16.48.16:832][400]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.07.24-16.48.16:832][400]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.07.24-16.48.16:832][400]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.07.24-16.48.16:832][400]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.07.24-16.48.16:833][400]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.07.24-16.48.16:833][400]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.07.24-16.48.16:833][400]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.07.24-16.48.16:833][400]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.07.24-16.48.16:833][400]LogOnline:Display: Unloading online subsystem: NULL
+[2017.07.24-16.48.16:835][400]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.07.24-16.48.16:837][400]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.07.24-16.48.16:838][400]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.07.24-16.48.16:838][400]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7480861F-4D49-82BE-9649-4BA88B6F0D71%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.1-3348071%2B%2B%2BUE4%2BRelease-4.15&UserID=a187dcbe48a9fd33047cbfb76ead2956%7Ccc3c8413bff54b0e9642da9d4a3c10e6%7C4a941b5c-45fe-4bb9-a344-3e4224fbffba&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.07.24-16.48.16:855][400]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.07.24-16.48.16:860][400]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.07.24-16.48.16:861][400]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.07.24-16.48.16:865][400]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.07.24-16.48.16:865][400]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.07.24-16.48.16:865][400]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.07.24-16.48.16:891][400]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.07.24-16.48.16:891][400]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.07.24-16.48.16:891][400]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.07.24-16.48.16:891][400]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.07.24-16.48.16:891][400]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.07.24-16.48.16:891][400]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.07.24-16.48.16:891][400]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.07.24-16.48.16:892][400]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.07.24-16.48.16:892][400]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.07.24-16.48.16:892][400]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.07.24-16.48.16:897][400]LogExit: Exiting.
+[2017.07.24-16.48.16:919][400]Log file closed, 07/24/17 18:48:16

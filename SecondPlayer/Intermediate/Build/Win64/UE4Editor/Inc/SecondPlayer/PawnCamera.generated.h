@@ -11,8 +11,28 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define SECONDPLAYER_PawnCamera_generated_h
 
-#define SecondPlayer_Source_SecondPlayer_PawnCamera_h_15_RPC_WRAPPERS
-#define SecondPlayer_Source_SecondPlayer_PawnCamera_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define SecondPlayer_Source_SecondPlayer_PawnCamera_h_15_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execgetTotalGold) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(int32*)Z_Param__Result=this->getTotalGold(); \
+		P_NATIVE_END; \
+	}
+
+
+#define SecondPlayer_Source_SecondPlayer_PawnCamera_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execgetTotalGold) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(int32*)Z_Param__Result=this->getTotalGold(); \
+		P_NATIVE_END; \
+	}
+
+
 #define SecondPlayer_Source_SecondPlayer_PawnCamera_h_15_INCLASS_NO_PURE_DECLS \
 	private: \
 	static void StaticRegisterNativesAPawnCamera(); \

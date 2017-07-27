@@ -61,4 +61,8 @@ void APawnCamera::Fire() {
 	}
 }
 
+int APawnCamera::getTotalGold() {
+	return totalGold;
+}
+
 

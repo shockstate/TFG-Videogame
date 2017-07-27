@@ -30,7 +30,11 @@ private:
 	float timerGoldPerSecond;
 
 public:
-	int totalGold;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		int32 totalGold;
+
+	UFUNCTION(BlueprintCallable, Category = Setup)
+		int getTotalGold();
 
 
 

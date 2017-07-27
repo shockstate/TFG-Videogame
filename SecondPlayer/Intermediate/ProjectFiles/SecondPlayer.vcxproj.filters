@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\SecondPlayer.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{71FEBC3C-4B45-4DF6-8A03-3516E4F2AA28}</UniqueIdentifier>
+			<UniqueIdentifier>{EB81C411-DD9C-438B-8993-309A684B7592}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\SecondPlayer.Target.cs">
 			<Filter>Source</Filter>
@@ -16,7 +16,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{E07FE5EE-0624-4C42-AC43-B987A2365CFF}</UniqueIdentifier>
+			<UniqueIdentifier>{346254DE-74C1-4836-8334-1B693E4C057A}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,7 +31,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\SecondPlayer">
-			<UniqueIdentifier>{9A584DB2-0196-410C-BD47-6B4491E94F89}</UniqueIdentifier>
+			<UniqueIdentifier>{ADF3FC54-F833-4C9D-8685-760861D5B2C3}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\SecondPlayer\Hability.cpp">
 			<Filter>Source\SecondPlayer</Filter>
