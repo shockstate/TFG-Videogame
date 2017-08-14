@@ -1,0 +1,495 @@
+﻿Log file open, 08/07/17 16:24:27
+LogInit:Display: Running engine for game: SecondPlayer
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-805650929) SRandInit(-805650929).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.342352
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.07-14.24.28:305][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.07-14.24.28:305][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.07-14.24.28:338][  0]LogInit: Computer: LAPTOP-GONF5L48
+[2017.08.07-14.24.28:338][  0]LogInit: User: Guille
+[2017.08.07-14.24.28:338][  0]LogInit: CPU Page size=65536, Cores=2
+[2017.08.07-14.24.28:338][  0]LogInit: High frequency timer resolution =2.835937 MHz
+[2017.08.07-14.24.28:339][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.08.07-14.24.28:339][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.07-14.24.28:339][  0]LogMemory: Process Physical Memory: 263.33 MB used, 263.33 MB peak
+[2017.08.07-14.24.28:339][  0]LogMemory: Process Virtual Memory: 262.29 MB used, 262.29 MB peak
+[2017.08.07-14.24.28:339][  0]LogMemory: Physical Memory: 4079.43 MB used,  3980.79 MB free, 8060.23 MB total
+[2017.08.07-14.24.28:339][  0]LogMemory: Virtual Memory: 643.38 MB used,  3980.79 MB free, 134217728.00 MB total
+[2017.08.07-14.24.28:800][  0]LogInit: Overriding culture en with editor configuration.
+[2017.08.07-14.24.31:976][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.07-14.24.31:987][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2017.08.07-14.24.31:987][  0]LogD3D11RHI:       128/0/4030 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.08.07-14.24.31:989][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.07-14.24.31:989][  0]LogD3D11RHI:       0/0/4030 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.07-14.24.31:989][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.07-14.24.31:995][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.07-14.24.31:995][  0]LogD3D11RHI:     GPU DeviceId: 0x5916 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.07-14.24.31:995][  0]LogWindows: EnumDisplayDevices:
+[2017.08.07-14.24.31:995][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2017.08.07-14.24.31:995][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2017.08.07-14.24.31:995][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2017.08.07-14.24.31:995][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.08.07-14.24.31:995][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 620
+[2017.08.07-14.24.31:995][  0]LogD3D11RHI:   Driver Version: 21.20.16.4526 (internal:21.20.16.4526, unified:21.20.16.4526)
+[2017.08.07-14.24.31:995][  0]LogD3D11RHI:      Driver Date: 9-23-2016
+[2017.08.07-14.24.31:996][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.07-14.24.32:002][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.07-14.24.32:056][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
+[2017.08.07-14.24.32:072][  0]LogShaderCompilers: Guid format shader working directory is -35 characters bigger than the processId version (../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Intermediate/Shaders/WorkingDirectory/164/).
+[2017.08.07-14.24.32:072][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Guille/AppData/Local/Temp/UnrealShaderWorkingDir/3DE4673E4041CA8B933405BB7450D19F/'.
+[2017.08.07-14.24.32:073][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.07-14.24.35:396][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.07-14.24.35:484][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.07-14.24.35:573][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.07-14.24.35:678][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.07-14.24.35:782][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.07-14.24.35:892][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.07-14.24.35:984][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.07-14.24.36:092][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.07-14.24.36:183][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.07-14.24.36:283][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.07-14.24.36:397][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.07-14.24.36:579][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.07-14.24.36:740][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.07-14.24.36:828][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.07-14.24.36:926][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.07-14.24.37:109][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.07-14.24.37:109][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.07-14.24.37:197][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.07-14.24.37:392][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.07-14.24.37:461][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.07-14.24.37:577][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.07-14.24.37:689][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.07-14.24.37:784][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.07-14.24.37:910][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.07-14.24.37:910][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.07-14.24.39:483][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.07-14.24.39:930][  0]LogDerivedDataCache: Loaded boot cache 0.45s 51MB C:/Users/Guille/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.08.07-14.24.39:930][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Guille/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.08.07-14.24.39:930][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.07-14.24.39:930][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.07-14.24.39:930][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.07-14.24.39:930][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.07-14.24.39:979][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.07-14.24.39:994][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Guille/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.07-14.24.40:030][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.07-14.24.40:084][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.07-14.24.40:084][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.07-14.24.47:742][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.07-14.24.47:757][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.07-14.24.48:193][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.07-14.24.48:279][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.07-14.24.48:364][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.07-14.24.48:364][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.07-14.24.48:364][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.07-14.24.51:287][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: secondplayer, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3451978818
+[2017.08.07-14.24.51:414][  0]LogAssetRegistry: FAssetRegistry took 0.0254 seconds to start up
+[2017.08.07-14.24.51:560][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.042701 seconds
+[2017.08.07-14.24.51:567][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.08.07-14.24.51:568][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.08.07-14.24.51:568][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.07-14.24.51:749][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.07-14.24.58:550][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.07-14.24.58:619][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.07-14.25.00:455][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.07-14.25.01:677][  0]SourceControl: Info Source control is disabled
+[2017.08.07-14.25.01:797][  0]SourceControl: Info Source control is disabled
+[2017.08.07-14.25.01:907][  0]SourceControl: Info Source control is disabled
+[2017.08.07-14.25.02:080][  0]SourceControl: Info Source control is disabled
+[2017.08.07-14.25.05:300][  0]LogEngine: Initializing Engine...
+[2017.08.07-14.25.05:303][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.07-14.25.06:526][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.07-14.25.06:608][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.07-14.25.06:668][  0]LogInit: FAudioDevice initialized.
+[2017.08.07-14.25.06:768][  0]LogDerivedDataCache: Saved boot cache 0.10s 51MB C:/Users/Guille/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.08.07-14.25.06:776][  0]LogInit: Texture streaming: Enabled
+[2017.08.07-14.25.07:033][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.07-14.25.07:406][  0]LogInit: Transaction tracking system initialized
+[2017.08.07-14.25.08:440][  0]BlueprintLog: New page: Editor Load
+[2017.08.07-14.25.10:723][  0]LocalizationService: Info Localization service is disabled
+[2017.08.07-14.25.12:691][  0]LogConsoleResponse:Display: 
+[2017.08.07-14.25.13:152][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.07-14.25.13:153][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.07-14.25.13:550][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Content/' took 0.02s
+[2017.08.07-14.25.16:732][  0]SourceControl: Info Source control is disabled
+[2017.08.07-14.25.16:736][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.07-14.25.16:744][  0]LightingResults: New page: Lighting Build
+[2017.08.07-14.25.16:871][  0]MapCheck: New page: Map Check
+[2017.08.07-14.25.16:871][  0]LightingResults: New page: Lighting Build
+[2017.08.07-14.25.17:078][  0]LogAIModule: Creating AISystem for world MainMenu
+[2017.08.07-14.25.17:118][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.07-14.25.17:125][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.07-14.25.17:185][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 60.209ms to complete.
+[2017.08.07-14.25.17:185][  0]LogFileHelpers: Loading map 'MainMenu' took 0.451
+[2017.08.07-14.25.17:600][  0]LogCollectionManager: Loaded 0 collections in 0.001704 seconds
+[2017.08.07-14.25.17:768][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Saved/Collections/' took 0.01s
+[2017.08.07-14.25.17:768][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Content/Developers/Guille/Collections/' took 0.01s
+[2017.08.07-14.25.17:768][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Content/Collections/' took 0.01s
+[2017.08.07-14.25.17:768][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.08.07-14.25.17:785][  0]LogContentBrowser: Native class hierarchy populated in 0.0141 seconds. Added 2250 classes and 455 folders.
+[2017.08.07-14.25.17:797][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.07-14.25.17:798][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.07-14.25.17:950][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0029 seconds. Added 0 classes and 0 folders.
+[2017.08.07-14.25.18:538][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0018 seconds. Added 0 classes and 0 folders.
+[2017.08.07-14.25.18:657][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0023 seconds. Added 1 classes and 2 folders.
+[2017.08.07-14.25.18:835][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.07-14.25.18:870][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.08.07-14.25.19:015][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0021 seconds. Added 1 classes and 2 folders.
+[2017.08.07-14.25.19:016][  0]LogLoad: (Engine Initialization) Total time: 57.40 seconds
+[2017.08.07-14.25.19:016][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.26 seconds
+[2017.08.07-14.25.19:016][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.08.07-14.25.19:016][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.08.07-14.25.19:358][  0]LogOcInput: OculusInput pre-init called
+[2017.08.07-14.25.19:399][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.07-14.25.19:415][  0]LogSlate: Took 0.004746 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.07-14.25.19:424][  0]LogSlate: Took 0.004585 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.07-14.25.19:440][  0]LogSlate: Took 0.005334 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.07-14.25.19:629][  0]LogSlate: Took 0.007050 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.07-14.25.19:734][  1]LogRenderer: Reallocating scene render targets to support 796x328 NumSamples 1 (Frame:2).
+[2017.08.07-14.25.19:734][  1]LogSlate: Took 0.043145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.08.07-14.25.20:358][  2]LogAssetRegistry: Asset discovery search completed in 28.9668 seconds
+[2017.08.07-14.25.20:358][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000010 seconds (found 0 objects)
+[2017.08.07-14.25.20:358][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000036 seconds (updated 0 objects)
+[2017.08.07-14.25.28:325][364]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.07-14.25.28:345][364]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.08.07-14.25.28:346][364]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.07-14.25.28:350][364]PIE: New page: PIE session: MainMenu (Aug 7, 2017, 6:25:28 PM)
+[2017.08.07-14.25.28:351][364]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2017.08.07-14.25.28:355][364]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004503s)
+[2017.08.07-14.25.28:356][364]LogAIModule: Creating AISystem for world MainMenu
+[2017.08.07-14.25.28:356][364]LogPlayLevel: PIE: World Init took: (0.000878s)
+[2017.08.07-14.25.28:357][364]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.006831s)
+[2017.08.07-14.25.28:386][364]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.07-14.25.28:396][364]LogInit: FAudioDevice initialized.
+[2017.08.07-14.25.28:455][364]LogUObjectGlobals:Warning: Failed to find object 'Class /Script/SecondPlayer.SecondPlayerGameMode'
+[2017.08.07-14.25.28:455][364]LogLoad: Game class is 'GameModeBase'
+[2017.08.07-14.25.28:469][364]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2017.08.07-16.25.28
+[2017.08.07-14.25.28:472][364]LogWorld: Bringing up level for play took: 0.004064
+[2017.08.07-14.25.28:603][364]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0028 seconds. Added 11 classes and 0 folders.
+[2017.08.07-14.25.28:629][364]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainMenu -0.433
+[2017.08.07-14.25.28:630][364]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.08.07-14.25.28:692][364]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:355).
+[2017.08.07-14.25.30:511][426]LogNet: Browse: /Game/Maps/firsttry
+[2017.08.07-14.25.30:511][426]LogLoad: LoadMap: /Game/Maps/firsttry
+[2017.08.07-14.25.30:568][426]Cmd: MEM
+[2017.08.07-14.25.30:592][426]LogMemory: Platform Memory Stats for Windows
+[2017.08.07-14.25.30:592][426]LogMemory: Process Physical Memory: 1303.38 MB used, 1303.38 MB peak
+[2017.08.07-14.25.30:592][426]LogMemory: Process Virtual Memory: 1255.02 MB used, 1255.02 MB peak
+[2017.08.07-14.25.30:592][426]LogMemory: Physical Memory: 5412.46 MB used,  2647.77 MB free, 8060.23 MB total
+[2017.08.07-14.25.30:593][426]LogMemory: Virtual Memory: 2047.41 MB used,  2647.77 MB free, 134217728.00 MB total
+[2017.08.07-14.25.30:593][426]LogMemory: 
+[2017.08.07-14.25.30:593][426]Allocator Stats for TBB: (not implemented)
+[2017.08.07-14.25.31:807][426]LogAIModule: Creating AISystem for world firsttry
+[2017.08.07-14.25.31:812][426]LogLoad: Game class is 'GameModeBase'
+[2017.08.07-14.25.31:826][426]LogWorld: Bringing World /Game/Maps/UEDPIE_0_firsttry.firsttry up for play (max tick rate 60) at 2017.08.07-16.25.31
+[2017.08.07-14.25.31:830][426]LogWorld: Bringing up level for play took: 0.017356
+[2017.08.07-14.25.31:833][426]LogScript:Warning: Accessed None trying to read property PawnCamera
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.HUD_C_0
+	Function /Game/UI/HUD.HUD_C:GetText_0:003D
+[2017.08.07-14.25.31:834][426]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property PawnCamera from function: 'GetText_0' from node: Return Node in graph: GetText_0 in object: HUD with description: Accessed None trying to read property PawnCamera
+[2017.08.07-14.25.31:835][426]LogLoad: Took 1.323012 seconds to LoadMap(/Game/Maps/firsttry)
+[2017.08.07-14.25.34:893][497]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.08.07-14.25.34:978][497]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.08.07-15.04.50:301][198]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.07-15.04.50:324][198]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.08.07-15.04.50:324][198]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.07-15.04.50:330][198]PIE: New page: PIE session: MainMenu (Aug 7, 2017, 7:04:50 PM)
+[2017.08.07-15.04.50:330][198]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_MainMenu
+[2017.08.07-15.04.50:332][198]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001905s)
+[2017.08.07-15.04.50:333][198]LogAIModule: Creating AISystem for world MainMenu
+[2017.08.07-15.04.50:334][198]LogPlayLevel: PIE: World Init took: (0.001245s)
+[2017.08.07-15.04.50:334][198]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_1_MainMenu.MainMenu (0.003521s)
+[2017.08.07-15.04.50:364][198]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.07-15.04.50:377][198]LogInit: FAudioDevice initialized.
+[2017.08.07-15.04.50:429][198]LogLoad: Game class is 'GameModeBase'
+[2017.08.07-15.04.50:430][198]LogWorld: Bringing World /Game/Maps/UEDPIE_1_MainMenu.MainMenu up for play (max tick rate 0) at 2017.08.07-17.04.50
+[2017.08.07-15.04.50:430][198]LogWorld: Bringing up level for play took: 0.000929
+[2017.08.07-15.04.50:436][198]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.08.07-15.04.50:441][198]LogInit: WinSock: I am LAPTOP-GONF5L48 (192.168.1.45:0)
+[2017.08.07-15.04.50:442][198]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.08.07-15.04.50:444][198]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
+[2017.08.07-15.04.50:450][198]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_MainMenu -0.612
+[2017.08.07-15.04.50:453][198]PIE: New page: PIE session: MainMenu (Aug 7, 2017, 7:04:50 PM)
+[2017.08.07-15.04.50:516][198]LogNet: Browse: 127.0.0.1//Game/Maps/MainMenu
+[2017.08.07-15.04.50:516][198]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.08.07-15.04.50:519][198]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.08.07-15.04.50:524][198]LogNet: Game client on port 7777, rate 10000
+[2017.08.07-15.04.50:525][198]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: secondplayer, ProjectVersion: 1.0.0.0, EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3156986858
+[2017.08.07-15.04.50:525][198]LogNet: UPendingNetGame::InitNetDriver: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL
+[2017.08.07-15.04.50:530][198]PIE: Info Play in editor start time for /Game/Maps/MainMenu -0.531
+[2017.08.07-15.04.50:541][198]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.08.07-15.04.50:542][198]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:56770
+[2017.08.07-15.04.50:543][198]LogHandshake: SendConnectChallenge. Timestamp: 0.008333, Cookie: 202008253176136069031139147000130080207014087114091255178079
+[2017.08.07-15.04.50:655][198]LogHandshake: SendChallengeResponse. Timestamp: 0.008333, Cookie: 202008253176136069031139147000130080207014087114091255178079
+[2017.08.07-15.04.50:686][199]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:56770
+[2017.08.07-15.04.50:686][199]LogNet: Server accepting post-challenge connection from: 127.0.0.1:56770
+[2017.08.07-15.04.50:686][199]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.08.07-15.04.50:686][199]LogNet: NotifyAcceptedConnection: Name: MainMenu, TimeStamp: 08/07/17 17:04:50, [UNetConnection] RemoteAddr: 127.0.0.1:56770, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2017.08.07-15.04.50:686][199]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:56770, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2017.08.07-15.04.50:687][199]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_MainMenu.MainMenu: Accepted
+[2017.08.07-15.04.50:688][199]LogNet: Remote platform little endian=1
+[2017.08.07-15.04.50:688][199]LogNet: This platform little endian=1
+[2017.08.07-15.04.50:722][200]LogNet: Login request: /Game/Maps/MainMenu userId: Invalid
+[2017.08.07-15.04.50:725][200]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_MainMenu, Game: /Script/Engine.GameModeBase)
+[2017.08.07-15.04.50:725][200]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_MainMenu?game=/Script/Engine.GameModeBase
+[2017.08.07-15.04.50:754][200]Cmd: MEM
+[2017.08.07-15.04.50:776][200]LogMemory: Platform Memory Stats for Windows
+[2017.08.07-15.04.50:776][200]LogMemory: Process Physical Memory: 1294.38 MB used, 1546.02 MB peak
+[2017.08.07-15.04.50:776][200]LogMemory: Process Virtual Memory: 1526.86 MB used, 1526.87 MB peak
+[2017.08.07-15.04.50:776][200]LogMemory: Physical Memory: 5043.90 MB used,  3016.32 MB free, 8060.23 MB total
+[2017.08.07-15.04.50:776][200]LogMemory: Virtual Memory: 2318.37 MB used,  3016.32 MB free, 134217728.00 MB total
+[2017.08.07-15.04.50:776][200]LogMemory: 
+[2017.08.07-15.04.50:776][200]Allocator Stats for TBB: (not implemented)
+[2017.08.07-15.04.50:782][200]LogAIModule: Creating AISystem for world MainMenu
+[2017.08.07-15.04.50:784][200]LogWorld: Bringing World /Game/Maps/UEDPIE_2_MainMenu.MainMenu up for play (max tick rate 0) at 2017.08.07-17.04.50
+[2017.08.07-15.04.50:784][200]LogWorld: Bringing up level for play took: 0.001294
+[2017.08.07-15.04.50:785][200]LogLoad: Took 0.060540 seconds to LoadMap(/Game/Maps/UEDPIE_1_MainMenu)
+[2017.08.07-15.04.50:809][201]LogNet: Client netspeed is 10000
+[2017.08.07-15.04.50:809][201]LogNet: Join request: /Game/Maps/MainMenu?SplitscreenCount=1
+[2017.08.07-15.04.50:822][201]LogNet: Join succeeded: 259
+[2017.08.07-15.04.52:359][235]LogNet: Browse: /Game/Maps/firsttry
+[2017.08.07-15.04.52:360][235]LogLoad: LoadMap: /Game/Maps/firsttry
+[2017.08.07-15.04.52:364][235]LogNet: World NetDriver shutdown IpNetDriver_0 [GameNetDriver]
+[2017.08.07-15.04.52:366][235]LogNet: DestroyNamedNetDriver IpNetDriver_0 [GameNetDriver]
+[2017.08.07-15.04.52:367][235]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:56770, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1
+[2017.08.07-15.04.52:367][235]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:56770, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, Channels: 10, Time: 2017.08.07-15.04.52
+[2017.08.07-15.04.52:367][235]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:56770, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1
+[2017.08.07-15.04.52:370][235]LogExit: GameNetDriver IpNetDriver_0 shut down
+[2017.08.07-15.04.52:470][235]Cmd: MEM
+[2017.08.07-15.04.52:521][235]LogMemory: Platform Memory Stats for Windows
+[2017.08.07-15.04.52:521][235]LogMemory: Process Physical Memory: 1356.60 MB used, 1546.02 MB peak
+[2017.08.07-15.04.52:521][235]LogMemory: Process Virtual Memory: 1583.08 MB used, 1583.08 MB peak
+[2017.08.07-15.04.52:521][235]LogMemory: Physical Memory: 5107.36 MB used,  2952.86 MB free, 8060.23 MB total
+[2017.08.07-15.04.52:521][235]LogMemory: Virtual Memory: 2366.46 MB used,  2952.86 MB free, 134217728.00 MB total
+[2017.08.07-15.04.52:521][235]LogMemory: 
+[2017.08.07-15.04.52:521][235]Allocator Stats for TBB: (not implemented)
+[2017.08.07-15.04.52:886][235]LogAIModule: Creating AISystem for world firsttry
+[2017.08.07-15.04.52:888][235]LogLoad: Game class is 'GameModeBase'
+[2017.08.07-15.04.52:894][235]LogWorld: Bringing World /Game/Maps/UEDPIE_1_firsttry.firsttry up for play (max tick rate 0) at 2017.08.07-17.04.52
+[2017.08.07-15.04.52:895][235]LogWorld: Bringing up level for play took: 0.005867
+[2017.08.07-15.04.52:904][235]LogScript:Warning: Accessed None trying to read property PawnCamera
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.HUD_C_1
+	Function /Game/UI/HUD.HUD_C:GetText_0:003D
+[2017.08.07-15.04.52:905][235]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property PawnCamera from function: 'GetText_0' from node: Return Node in graph: GetText_0 in object: HUD with description: Accessed None trying to read property PawnCamera
+[2017.08.07-15.04.52:906][235]LogLoad: Took 0.546234 seconds to LoadMap(/Game/Maps/firsttry)
+[2017.08.07-15.04.52:908][235]LogNet:Warning: Network Failure: GameNetDriver[FailureReceived]: Host closed the connection.
+[2017.08.07-15.04.52:908][235]LogNet:Warning: Network Failure: GameNetDriver[FailureReceived]: Host closed the connection.
+[2017.08.07-15.04.52:909][235]LogNet: NetworkFailure: FailureReceived, Error: 'Host closed the connection.'
+[2017.08.07-15.04.52:909][235]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, Channels: 10, Time: 2017.08.07-15.04.52
+[2017.08.07-15.04.52:909][235]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1
+[2017.08.07-15.04.52:910][235]LogNet:Warning: Network Failure: GameNetDriver[ConnectionLost]: Your connection to the host has been lost.
+[2017.08.07-15.04.52:910][235]LogNet:Warning: Network Failure: GameNetDriver[ConnectionLost]: Your connection to the host has been lost.
+[2017.08.07-15.04.52:910][235]LogNet: NetworkFailure: ConnectionLost, Error: 'Your connection to the host has been lost.'
+[2017.08.07-15.04.52:997][236]LogNet: Browse: /Game/Maps/MainMenu?closed
+[2017.08.07-15.04.52:997][236]LogNet: Failed; returning to Entry
+[2017.08.07-15.04.52:997][236]LogLoad: LoadMap: /Game/Maps/MainMenu?closed
+[2017.08.07-15.04.52:997][236]LogNet: World NetDriver shutdown IpNetDriver_1 [GameNetDriver]
+[2017.08.07-15.04.52:997][236]LogNet: DestroyNamedNetDriver IpNetDriver_1 [GameNetDriver]
+[2017.08.07-15.04.52:998][236]LogExit: GameNetDriver IpNetDriver_1 shut down
+[2017.08.07-15.04.53:208][236]Cmd: MEM
+[2017.08.07-15.04.53:259][236]LogMemory: Platform Memory Stats for Windows
+[2017.08.07-15.04.53:259][236]LogMemory: Process Physical Memory: 1380.66 MB used, 1546.02 MB peak
+[2017.08.07-15.04.53:259][236]LogMemory: Process Virtual Memory: 1586.38 MB used, 1586.38 MB peak
+[2017.08.07-15.04.53:259][236]LogMemory: Physical Memory: 5138.29 MB used,  2921.93 MB free, 8060.23 MB total
+[2017.08.07-15.04.53:259][236]LogMemory: Virtual Memory: 2366.46 MB used,  2921.93 MB free, 134217728.00 MB total
+[2017.08.07-15.04.53:259][236]LogMemory: 
+[2017.08.07-15.04.53:259][236]Allocator Stats for TBB: (not implemented)
+[2017.08.07-15.04.53:259][236]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_2_MainMenu
+[2017.08.07-15.04.53:262][236]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002713s)
+[2017.08.07-15.04.53:263][236]LogAIModule: Creating AISystem for world MainMenu
+[2017.08.07-15.04.53:264][236]LogPlayLevel: PIE: World Init took: (0.001597s)
+[2017.08.07-15.04.53:264][236]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_2_MainMenu.MainMenu (0.004813s)
+[2017.08.07-15.04.53:265][236]LogLoad: Game class is 'GameModeBase'
+[2017.08.07-15.04.53:267][236]LogWorld: Bringing World /Game/Maps/UEDPIE_2_MainMenu.MainMenu up for play (max tick rate 0) at 2017.08.07-17.04.53
+[2017.08.07-15.04.53:268][236]LogWorld: Bringing up level for play took: 0.001843
+[2017.08.07-15.04.53:268][236]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.07-15.04.53:277][236]LogLoad: Took 0.279838 seconds to LoadMap(/Game/Maps/UEDPIE_2_MainMenu)
+[2017.08.07-15.05.57:492][330]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.08.07-15.05.57:739][330]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.08.07-15.06.10:682][377]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.07-15.06.10:720][377]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.08.07-15.06.10:720][377]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.07-15.06.10:723][377]PIE: New page: PIE session: MainMenu (Aug 7, 2017, 7:06:10 PM)
+[2017.08.07-15.06.10:723][377]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_MainMenu
+[2017.08.07-15.06.10:725][377]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002412s)
+[2017.08.07-15.06.10:726][377]LogAIModule: Creating AISystem for world MainMenu
+[2017.08.07-15.06.10:727][377]LogPlayLevel: PIE: World Init took: (0.001462s)
+[2017.08.07-15.06.10:727][377]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_1_MainMenu.MainMenu (0.004336s)
+[2017.08.07-15.06.10:775][377]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.07-15.06.10:788][377]LogInit: FAudioDevice initialized.
+[2017.08.07-15.06.10:844][377]LogLoad: Game class is 'GameModeBase'
+[2017.08.07-15.06.10:848][377]LogWorld: Bringing World /Game/Maps/UEDPIE_1_MainMenu.MainMenu up for play (max tick rate 0) at 2017.08.07-17.06.10
+[2017.08.07-15.06.10:848][377]LogWorld: Bringing up level for play took: 0.002271
+[2017.08.07-15.06.10:850][377]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.08.07-15.06.10:850][377]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.08.07-15.06.10:850][377]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 7777
+[2017.08.07-15.06.10:855][377]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_MainMenu -0.207
+[2017.08.07-15.06.10:858][377]PIE: New page: PIE session: MainMenu (Aug 7, 2017, 7:06:10 PM)
+[2017.08.07-15.06.10:917][377]LogNet: Browse: 127.0.0.1//Game/Maps/MainMenu
+[2017.08.07-15.06.10:918][377]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.08.07-15.06.10:918][377]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.08.07-15.06.10:918][377]LogNet: Game client on port 7777, rate 10000
+[2017.08.07-15.06.10:919][377]LogNet: UPendingNetGame::InitNetDriver: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_2, Driver: PendingNetDriver IpNetDriver_3, IsServer: NO, PC: NULL, Owner: NULL
+[2017.08.07-15.06.10:923][377]PIE: Info Play in editor start time for /Game/Maps/MainMenu -0.139
+[2017.08.07-15.06.10:936][377]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.08.07-15.06.10:936][377]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:53908
+[2017.08.07-15.06.10:936][377]LogHandshake: SendConnectChallenge. Timestamp: 0.009857, Cookie: 249115031255118018159063124195101098092214126005149082003169
+[2017.08.07-15.06.10:937][377]LogHandshake: SendChallengeResponse. Timestamp: 0.009857, Cookie: 249115031255118018159063124195101098092214126005149082003169
+[2017.08.07-15.06.10:950][378]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:53908
+[2017.08.07-15.06.10:950][378]LogNet: Server accepting post-challenge connection from: 127.0.0.1:53908
+[2017.08.07-15.06.10:950][378]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.08.07-15.06.10:950][378]LogNet: NotifyAcceptedConnection: Name: MainMenu, TimeStamp: 08/07/17 17:06:10, [UNetConnection] RemoteAddr: 127.0.0.1:53908, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL
+[2017.08.07-15.06.10:950][378]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:53908, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL
+[2017.08.07-15.06.10:950][378]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_MainMenu.MainMenu: Accepted
+[2017.08.07-15.06.10:950][378]LogNet: Remote platform little endian=1
+[2017.08.07-15.06.10:950][378]LogNet: This platform little endian=1
+[2017.08.07-15.06.10:983][379]LogNet: Login request: /Game/Maps/MainMenu userId: Invalid
+[2017.08.07-15.06.10:984][379]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_MainMenu, Game: /Script/Engine.GameModeBase)
+[2017.08.07-15.06.10:984][379]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_MainMenu?game=/Script/Engine.GameModeBase
+[2017.08.07-15.06.11:027][379]Cmd: MEM
+[2017.08.07-15.06.11:056][379]LogMemory: Platform Memory Stats for Windows
+[2017.08.07-15.06.11:056][379]LogMemory: Process Physical Memory: 1355.00 MB used, 1546.02 MB peak
+[2017.08.07-15.06.11:056][379]LogMemory: Process Virtual Memory: 1569.59 MB used, 1642.13 MB peak
+[2017.08.07-15.06.11:056][379]LogMemory: Physical Memory: 5146.49 MB used,  2913.73 MB free, 8060.23 MB total
+[2017.08.07-15.06.11:056][379]LogMemory: Virtual Memory: 2396.02 MB used,  2913.73 MB free, 134217728.00 MB total
+[2017.08.07-15.06.11:056][379]LogMemory: 
+[2017.08.07-15.06.11:056][379]Allocator Stats for TBB: (not implemented)
+[2017.08.07-15.06.11:060][379]LogAIModule: Creating AISystem for world MainMenu
+[2017.08.07-15.06.11:061][379]LogWorld: Bringing World /Game/Maps/UEDPIE_2_MainMenu.MainMenu up for play (max tick rate 0) at 2017.08.07-17.06.11
+[2017.08.07-15.06.11:061][379]LogWorld: Bringing up level for play took: 0.000835
+[2017.08.07-15.06.11:062][379]LogLoad: Took 0.077745 seconds to LoadMap(/Game/Maps/UEDPIE_1_MainMenu)
+[2017.08.07-15.06.11:092][380]LogNet: Client netspeed is 10000
+[2017.08.07-15.06.11:093][380]LogNet: Join request: /Game/Maps/MainMenu?SplitscreenCount=1
+[2017.08.07-15.06.11:096][380]LogNet: Join succeeded: 263
+[2017.08.07-15.06.18:564][503]LogNet: Browse: /Game/Maps/firsttry
+[2017.08.07-15.06.18:564][503]LogLoad: LoadMap: /Game/Maps/firsttry
+[2017.08.07-15.06.18:564][503]LogNet: World NetDriver shutdown IpNetDriver_2 [GameNetDriver]
+[2017.08.07-15.06.18:564][503]LogNet: DestroyNamedNetDriver IpNetDriver_2 [GameNetDriver]
+[2017.08.07-15.06.18:565][503]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:53908, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1
+[2017.08.07-15.06.18:565][503]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:53908, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, Channels: 11, Time: 2017.08.07-15.06.18
+[2017.08.07-15.06.18:565][503]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:53908, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1
+[2017.08.07-15.06.18:566][503]LogExit: GameNetDriver IpNetDriver_2 shut down
+[2017.08.07-15.06.18:699][503]Cmd: MEM
+[2017.08.07-15.06.18:777][503]LogMemory: Platform Memory Stats for Windows
+[2017.08.07-15.06.18:777][503]LogMemory: Process Physical Memory: 1415.02 MB used, 1546.02 MB peak
+[2017.08.07-15.06.18:777][503]LogMemory: Process Virtual Memory: 1579.53 MB used, 1642.13 MB peak
+[2017.08.07-15.06.18:777][503]LogMemory: Physical Memory: 5163.05 MB used,  2897.18 MB free, 8060.23 MB total
+[2017.08.07-15.06.18:777][503]LogMemory: Virtual Memory: 2404.04 MB used,  2897.18 MB free, 134217728.00 MB total
+[2017.08.07-15.06.18:777][503]LogMemory: 
+[2017.08.07-15.06.18:777][503]Allocator Stats for TBB: (not implemented)
+[2017.08.07-15.06.19:346][503]LogAIModule: Creating AISystem for world firsttry
+[2017.08.07-15.06.19:349][503]LogLoad: Game class is 'GameModeBase'
+[2017.08.07-15.06.19:360][503]LogWorld: Bringing World /Game/Maps/UEDPIE_1_firsttry.firsttry up for play (max tick rate 0) at 2017.08.07-17.06.19
+[2017.08.07-15.06.19:363][503]LogWorld: Bringing up level for play took: 0.012649
+[2017.08.07-15.06.19:376][503]LogScript:Warning: Accessed None trying to read property PawnCamera
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_2
+	Function /Game/UI/HUD.HUD_C:GetText_0:003D
+[2017.08.07-15.06.19:377][503]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property PawnCamera from function: 'GetText_0' from node: Return Node in graph: GetText_0 in object: HUD with description: Accessed None trying to read property PawnCamera
+[2017.08.07-15.06.19:378][503]LogLoad: Took 0.813998 seconds to LoadMap(/Game/Maps/firsttry)
+[2017.08.07-15.06.19:381][503]LogNet:Warning: Network Failure: GameNetDriver[FailureReceived]: Host closed the connection.
+[2017.08.07-15.06.19:381][503]LogNet:Warning: Network Failure: GameNetDriver[FailureReceived]: Host closed the connection.
+[2017.08.07-15.06.19:382][503]LogNet: NetworkFailure: FailureReceived, Error: 'Host closed the connection.'
+[2017.08.07-15.06.19:382][503]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, Channels: 11, Time: 2017.08.07-15.06.19
+[2017.08.07-15.06.19:383][503]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1
+[2017.08.07-15.06.19:383][503]LogNet:Warning: Network Failure: GameNetDriver[ConnectionLost]: Your connection to the host has been lost.
+[2017.08.07-15.06.19:383][503]LogNet:Warning: Network Failure: GameNetDriver[ConnectionLost]: Your connection to the host has been lost.
+[2017.08.07-15.06.19:383][503]LogNet: NetworkFailure: ConnectionLost, Error: 'Your connection to the host has been lost.'
+[2017.08.07-15.06.19:463][504]LogNet: Browse: /Game/Maps/MainMenu?closed
+[2017.08.07-15.06.19:463][504]LogNet: Failed; returning to Entry
+[2017.08.07-15.06.19:463][504]LogLoad: LoadMap: /Game/Maps/MainMenu?closed
+[2017.08.07-15.06.19:463][504]LogNet: World NetDriver shutdown IpNetDriver_3 [GameNetDriver]
+[2017.08.07-15.06.19:463][504]LogNet: DestroyNamedNetDriver IpNetDriver_3 [GameNetDriver]
+[2017.08.07-15.06.19:463][504]LogExit: GameNetDriver IpNetDriver_3 shut down
+[2017.08.07-15.06.19:658][504]Cmd: MEM
+[2017.08.07-15.06.19:720][504]LogMemory: Platform Memory Stats for Windows
+[2017.08.07-15.06.19:720][504]LogMemory: Process Physical Memory: 1416.82 MB used, 1546.02 MB peak
+[2017.08.07-15.06.19:720][504]LogMemory: Process Virtual Memory: 1581.36 MB used, 1642.13 MB peak
+[2017.08.07-15.06.19:720][504]LogMemory: Physical Memory: 5161.32 MB used,  2898.91 MB free, 8060.23 MB total
+[2017.08.07-15.06.19:720][504]LogMemory: Virtual Memory: 2404.04 MB used,  2898.91 MB free, 134217728.00 MB total
+[2017.08.07-15.06.19:720][504]LogMemory: 
+[2017.08.07-15.06.19:720][504]Allocator Stats for TBB: (not implemented)
+[2017.08.07-15.06.19:720][504]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_2_MainMenu
+[2017.08.07-15.06.19:723][504]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002724s)
+[2017.08.07-15.06.19:724][504]LogAIModule: Creating AISystem for world MainMenu
+[2017.08.07-15.06.19:725][504]LogPlayLevel: PIE: World Init took: (0.001680s)
+[2017.08.07-15.06.19:725][504]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_2_MainMenu.MainMenu (0.005025s)
+[2017.08.07-15.06.19:726][504]LogLoad: Game class is 'GameModeBase'
+[2017.08.07-15.06.19:728][504]LogWorld: Bringing World /Game/Maps/UEDPIE_2_MainMenu.MainMenu up for play (max tick rate 0) at 2017.08.07-17.06.19
+[2017.08.07-15.06.19:729][504]LogWorld: Bringing up level for play took: 0.001676
+[2017.08.07-15.06.19:730][504]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.07-15.06.19:735][504]LogLoad: Took 0.272073 seconds to LoadMap(/Game/Maps/UEDPIE_2_MainMenu)
+[2017.08.07-15.06.22:231][535]LogNet: Browse: /Game/Maps/firsttry
+[2017.08.07-15.06.22:290][535]LogLoad: LoadMap: /Game/Maps/firsttry
+[2017.08.07-15.06.22:365][535]Cmd: MEM
+[2017.08.07-15.06.22:417][535]LogMemory: Platform Memory Stats for Windows
+[2017.08.07-15.06.22:417][535]LogMemory: Process Physical Memory: 1465.28 MB used, 1546.02 MB peak
+[2017.08.07-15.06.22:417][535]LogMemory: Process Virtual Memory: 1621.86 MB used, 1642.13 MB peak
+[2017.08.07-15.06.22:417][535]LogMemory: Physical Memory: 5211.45 MB used,  2848.78 MB free, 8060.23 MB total
+[2017.08.07-15.06.22:417][535]LogMemory: Virtual Memory: 2448.93 MB used,  2848.78 MB free, 134217728.00 MB total
+[2017.08.07-15.06.22:418][535]LogMemory: 
+[2017.08.07-15.06.22:418][535]Allocator Stats for TBB: (not implemented)
+[2017.08.07-15.06.22:795][535]LogAIModule: Creating AISystem for world firsttry
+[2017.08.07-15.06.22:796][535]LogLoad: Game class is 'GameModeBase'
+[2017.08.07-15.06.22:802][535]LogWorld: Bringing World /Game/Maps/UEDPIE_2_firsttry.firsttry up for play (max tick rate 0) at 2017.08.07-17.06.22
+[2017.08.07-15.06.22:804][535]LogWorld: Bringing up level for play took: 0.006133
+[2017.08.07-15.06.22:810][535]LogScript:Warning: Accessed None trying to read property PawnCamera
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.HUD_C_3
+	Function /Game/UI/HUD.HUD_C:GetText_0:003D
+[2017.08.07-15.06.22:811][535]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property PawnCamera from function: 'GetText_0' from node: Return Node in graph: GetText_0 in object: HUD with description: Accessed None trying to read property PawnCamera
+[2017.08.07-15.06.22:812][535]LogLoad: Took 0.521680 seconds to LoadMap(/Game/Maps/firsttry)
+[2017.08.07-15.06.49:013][866]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.08.07-15.06.49:236][866]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.08.07-15.10.06:372][232]LogSlate: Took 0.000880 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.07-15.10.14:179][589]LogVSAccessor:Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.08.07-15.10.14:192][590]LogVSAccessor:Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.08.07-15.10.14:525][591]LogVSAccessor:Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.08.07-15.10.14:859][592]LogVSAccessor:Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.08.07-15.10.15:191][593]LogVSAccessor:Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.08.07-15.10.15:525][594]LogVSAccessor:Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.08.07-15.10.40:068][595]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Source/SecondPlayer/PawnCamera.h'
+[2017.08.07-15.10.40:103][595]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/Guille/Documents/Unreal Projects/TFG-Videogame/SecondPlayer/Source/SecondPlayer/PawnCamera.cpp'

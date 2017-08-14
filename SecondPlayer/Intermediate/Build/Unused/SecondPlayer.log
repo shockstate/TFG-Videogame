@@ -1,25 +1,12 @@
-﻿  Creating makefile for SecondPlayerEditor (no existing makefile)
+﻿  Compiling game modules for hot reload
   Parsing headers for SecondPlayerEditor
     Running UnrealHeaderTool "C:\Users\Guille\Documents\Unreal Projects\TFG-Videogame\SecondPlayer\SecondPlayer.uproject" "C:\Users\Guille\Documents\Unreal Projects\TFG-Videogame\SecondPlayer\Intermediate\Build\Win64\SecondPlayerEditor\Development\SecondPlayerEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for SecondPlayerEditor in 4,1047882 seconds
-  Performing 10 actions (2 in parallel)
-  PCH.SecondPlayer.cpp
-  Mine.cpp
+  Reflection code generated for SecondPlayerEditor in 4,133949 seconds
+  Performing 3 actions (2 in parallel)
   Hability.cpp
-  MyPawn.cpp
-  PawnCamera.cpp
-  SecondPlayer.cpp
-  SecondPlayerGameModeBase.cpp
-  SecondPlayer.generated.cpp
-  [9/10] Link UE4Editor-SecondPlayer.dll
-  [10/10] Link UE4Editor-SecondPlayer.lib
-     Creating library C:\Users\Guille\Documents\Unreal Projects\TFG-Videogame\SecondPlayer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SecondPlayer.lib and object C:\Users\Guille\Documents\Unreal Projects\TFG-Videogame\SecondPlayer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SecondPlayer.exp
-     Creating library C:\Users\Guille\Documents\Unreal Projects\TFG-Videogame\SecondPlayer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SecondPlayer.suppressed.lib and object C:\Users\Guille\Documents\Unreal Projects\TFG-Videogame\SecondPlayer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SecondPlayer.suppressed.exp
-SecondPlayerGameModeBase.cpp.obj : error LNK2019: unresolved external symbol "public: void __cdecl ASecondPlayerGameModeBase::ChangeMenuWidget(class TSubclassOf<class UUserWidget>)" (?ChangeMenuWidget@ASecondPlayerGameModeBase@@QEAAXV?$TSubclassOf@VUUserWidget@@@@@Z) referenced in function "public: void __cdecl ASecondPlayerGameModeBase::execChangeMenuWidget(struct FFrame &,void * const)" (?execChangeMenuWidget@ASecondPlayerGameModeBase@@QEAAXAEAUFFrame@@QEAX@Z)
-SecondPlayer.generated.cpp.obj : error LNK2001: unresolved external symbol "public: void __cdecl ASecondPlayerGameModeBase::ChangeMenuWidget(class TSubclassOf<class UUserWidget>)" (?ChangeMenuWidget@ASecondPlayerGameModeBase@@QEAAXV?$TSubclassOf@VUUserWidget@@@@@Z)
-SecondPlayerGameModeBase.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl ASecondPlayerGameModeBase::BeginPlay(void)" (?BeginPlay@ASecondPlayerGameModeBase@@MEAAXXZ)
-SecondPlayer.generated.cpp.obj : error LNK2001: unresolved external symbol "protected: virtual void __cdecl ASecondPlayerGameModeBase::BeginPlay(void)" (?BeginPlay@ASecondPlayerGameModeBase@@MEAAXXZ)
-C:\Users\Guille\Documents\Unreal Projects\TFG-Videogame\SecondPlayer\Binaries\Win64\UE4Editor-SecondPlayer.dll : fatal error LNK1120: 2 unresolved externals
-ERROR : UBT error : Failed to produce item: C:\Users\Guille\Documents\Unreal Projects\TFG-Videogame\SecondPlayer\Binaries\Win64\UE4Editor-SecondPlayer.dll
-  Total build time: 89,52 seconds (Local executor: 0,00 seconds)
-C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.MakeFile.Targets(41,5): error MSB3075: The command ""C:\Program Files\Epic Games\UE_4.15\Engine\Build\BatchFiles\Build.bat" SecondPlayerEditor Win64 Development "C:\Users\Guille\Documents\Unreal Projects\TFG-Videogame\SecondPlayer\SecondPlayer.uproject" -waitmutex" exited with code 5. Please verify that you have sufficient rights to run this command.
+  [2/3] Link UE4Editor-SecondPlayer-7693.dll
+  [3/3] Link UE4Editor-SecondPlayer-7693.lib
+     Creating library C:\Users\Guille\Documents\Unreal Projects\TFG-Videogame\SecondPlayer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SecondPlayer-7693.lib and object C:\Users\Guille\Documents\Unreal Projects\TFG-Videogame\SecondPlayer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SecondPlayer-7693.exp
+     Creating library C:\Users\Guille\Documents\Unreal Projects\TFG-Videogame\SecondPlayer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SecondPlayer-7693.suppressed.lib and object C:\Users\Guille\Documents\Unreal Projects\TFG-Videogame\SecondPlayer\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SecondPlayer-7693.suppressed.exp
+  Deploying SecondPlayerEditor Win64 Development...
+  Total build time: 10,54 seconds (Local executor: 3,16 seconds)

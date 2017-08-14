@@ -49,13 +49,13 @@ void AHability::InitTheRay(const FVector &direction, const FVector &startPositio
 FHitResult AHability::TraceTheRay(const FVector &TraceFrom, const FVector &TraceTo) const
 {
 	static FName WeaponFireTag = FName(TEXT("Vision"));
-
 	FCollisionQueryParams TraceParams(WeaponFireTag, true, Instigator);
 	TraceParams.bTraceAsyncScene = true;
 	TraceParams.bReturnPhysicalMaterial = true;
 	TraceParams.AddIgnoredActor(this);
 	FHitResult Hit(ForceInit);
-		GetWorld()->LineTraceSingleByChannel(Hit, TraceFrom, TraceTo, ECC_GameTraceChannel1, TraceParams);
+		
+		 GetWorld()->LineTraceSingleByChannel(Hit, TraceFrom, TraceTo, ECC_GameTraceChannel1, TraceParams);
 		
 		/*if (GEngine)
 			//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, FString("aha").Append());
@@ -69,9 +69,25 @@ void AHability::HitTheRay(const FHitResult & Impact, const FVector & startPositi
 	const FVector EndTrace = startPosition + direction * 3000.0f;
 	const FVector EndPoint = Impact.GetActor() ? Impact.ImpactPoint : EndTrace;
 
+	
+
 	//DrawDebugLine(this->GetWorld(), startPosition, EndPoint, FColor::Black, true, 10000, 10.f);
 	deployLoc = EndPoint;
-	if (Impact.GetActor()) canDeploy = true;
+	if (Impact.GetActor()) {
+		float thickness = 5.0f;
+		
+		///FVector yAxis = FRotationMatrix(Impact.GetActor()->GetActorRotation()).GetScaledAxis(EAxis::Y);
+		FVector yAxis = Impact.ImpactNormal;
+		//FVector zAxis = FRotationMatrix(Impact.GetActor()->GetActorRotation()).GetScaledAxis(EAxis::Z);
+		FVector prueba = FVector(1.0f, 0.0f, 0.0f);
+		FVector yAxis3 = FVector(yAxis.Z, yAxis.X, yAxis.Y);
+		FVector yAxis2 = FVector(yAxis.Y, yAxis.Z, yAxis.X);
+		//UE_LOG(LogTemp, Warning, TEXT("vectores %s, \n %s"), *yAxis.ToString(), *prueba.ToString());
+		canDeploy = true;
+		DrawDebugCircle(this->GetWorld(), EndPoint, 20.0f, 200, FColor::Green, false, -1.0f, 0, thickness, 
+			yAxis3,yAxis2, false);
+
+	}
 	else canDeploy = false;
 }
 void AHability::AdvanceTimer()
